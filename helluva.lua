@@ -1,0 +1,122 @@
+helluva_config = SMODS.current_mod.config
+-- Load UI file
+local UI, load_error = SMODS.load_file("ui.lua")
+if load_error then
+  sendDebugMessage ("The error is: "..load_error)
+else
+  UI()
+end
+-- Load Quips file
+SMODS.load_file("quips.lua")()
+
+
+local atlas_key = 'hbp_atlas' -- Format: PREFIX_KEY
+-- See end of file for notes
+local atlas_path = 'helluvaboss_lc.png' -- Filename for the image in the asset folder
+local atlas_path_hc = 'helluvaboss_hc.png' -- Filename for the high-contrast version of the texture, if existing
+
+local suits = {'hearts', 'clubs', 'diamonds', 'spades'} -- Which suits to replace
+local ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', "King", "Ace",} -- Which ranks to replace
+
+local description = 'Helluva Boss' -- English-language description, also used as default
+
+SMODS.Atlas {
+  key = 'modicon',
+  px = 32,
+  py = 32,
+  path = 'modicon.png'
+}
+
+-- SMODS.Atlas{  
+    -- key = 'casl_sleeve_atlas',
+    -- prefix_config = {atlas=true},
+    -- px = 73,
+    -- py = 95,
+    -- path = 'helluvasleeves.png'
+--}
+
+    SMODS.Atlas:take_ownership('casl_sleeve_atlas',
+        {
+            path = 'helluvasleeves.png',  -- your sleeve atlas path
+        },
+        true
+    )
+    SMODS.Atlases['casl_sleeve_atlas'].mod = SMODS.current_mod
+
+SMODS.Atlas{  
+    key = atlas_key..'_lc',
+    px = 71,
+    py = 95,
+    path = atlas_path,
+    prefix_config = {key = false}, -- See end of file for notes
+}
+
+if atlas_path_hc then
+    SMODS.Atlas{  
+        key = atlas_key..'_hc',
+        px = 71,
+        py = 95,
+        path = atlas_path_hc,
+        prefix_config = {key = false}, -- See end of file for notes
+    }
+end
+
+for _, suit in ipairs(suits) do
+    SMODS.DeckSkin{
+        key = suit.."_skin",
+        suit = suit:gsub("^%l", string.upper),
+        ranks = ranks,
+        lc_atlas = atlas_key..'_lc',
+        hc_atlas = (atlas_path_hc and atlas_key..'_hc') or atlas_key..'_lc',
+        loc_txt = {
+            ['en-us'] = description
+        },
+        posStyle = 'deck'
+    }
+end
+
+AltTexture({
+    key = 'enhancersHELLUVA',
+    set = 'Enhanced',
+    path = 'helluvaenhancers.png',
+	keys = {'b_red','b_blue','b_yellow','b_green','b_black'},
+	display_pos = 'b_red',
+	original_sheet = true
+})
+
+AltTexture({
+    key = 'jokersHELLUVA',
+    set = 'Joker',
+    path = 'helluvajokers.png',
+	keys = {'j_family','j_odd_todd'},
+	original_sheet = true
+})
+
+AltTexture({
+    key = 'tarotsHELLUVA',
+    set = 'Tarot',
+    path = 'helluvatarots.png',
+	-- keys = {'c_fool','c_magician','c_high_priestess','c_empress','c_emperor','c_lovers','c_hermit','c_wheel_of_fortune','c_strength','c_hanged_man','c_star','c_moon','c_sun','c_judgement'},
+	original_sheet = true
+})
+
+TexturePack {
+    key = 'cards',
+    textures = {
+        "hbp_enhancersHELLUVA","hbp_jokersHELLUVA","hbp_tarotsHELLUVA",
+    },
+        loc_txt = {
+        name = "Helluva Boss",
+        text = {
+            "Helluva Boss",
+            "playing card backs,",
+	    "jokers and tarots."
+        }
+    }
+}
+
+-- Notes:
+
+-- The current version of Steamodded has a bug with prefixes in mods including `DeckSkin`s.
+-- By manually including the prefix in the atlas' key, this should keep the mod functional
+-- even after this bug is fixed.
