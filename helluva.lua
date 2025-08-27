@@ -6,8 +6,12 @@ if load_error then
 else
   UI()
 end
+
 -- Load Quips file
-SMODS.load_file("quips.lua")()
+if helluvaquips then
+    SMODS.load_file("quips.lua")()
+else
+end
 
 
 local atlas_key = 'hbp_atlas' -- Format: PREFIX_KEY
@@ -26,14 +30,6 @@ SMODS.Atlas {
   py = 32,
   path = 'modicon.png'
 }
-
--- SMODS.Atlas{  
-    -- key = 'casl_sleeve_atlas',
-    -- prefix_config = {atlas=true},
-    -- px = 73,
-    -- py = 95,
-    -- path = 'helluvasleeves.png'
---}
 
     SMODS.Atlas:take_ownership('casl_sleeve_atlas',
         {
