@@ -1,0 +1,368 @@
+return {
+	descriptions = {
+		Back={
+            b_checkered={
+                name="Checkered Deck",
+                text={
+                    "Start run with",
+                    "{C:attention}26{C:spades} Crowns{} and",
+                    "{C:attention}26{C:hearts} Hearts{} in deck",
+                },
+            },
+        },
+        Blind={
+            bl_club={
+                name="The Club",
+                text={
+                    "All Moons cards",
+                    "are debuffed",
+                },
+            },
+            bl_goad={
+                name="The Goad",
+                text={
+                    "All Crown cards",
+                    "are debuffed",
+                },
+            },
+            bl_serpent={
+                name="The Serpent",
+                text={
+                    "After Play or Discard,",
+                    "always draw 3 cards",
+                },
+            },
+            bl_window={
+                name="The Window",
+                text={
+                    "All Mammon cards",
+                    "are debuffed",
+                },
+            },
+        },
+
+		Tarot={
+            c_chariot={
+                name="Stella",
+                text={
+                    "This {C:attention}bitch{} enhances",
+                    "{C:attention}#1#{} selected card",
+                    "into a {C:attention}#2#",
+                },
+            },
+            c_death={
+                name="Glitz & Glam",
+                text={
+                    "Select {C:attention}#1#{} cards,",
+                    "{C:dark_edition}mirror{} the {C:attention}left{} card",
+                    "into the {C:attention}right{} card",
+                    "{C:inactive}(Drag to rearrange)",
+                },
+            },
+            c_devil={
+                name="Lucifier",
+                text={
+                    "Enhances {C:attention}#1#{} selected",
+                    "card into a",
+                    "{C:attention}#2#",
+                },
+            },
+            c_emperor={
+                name="Moxxie",
+                text={
+                    "Creates up to {C:attention}#1#",
+                    "random {C:tarot}Tarot{} cards",
+                    "{C:inactive}(Must have room)",
+                },
+            },
+            c_empress={
+                name="Millie",
+                text={
+                    "Enhances {C:attention}#1#",
+                    "selected cards to",
+                    "{C:attention}#2#s",
+                },
+            },
+            c_fool={
+                name="Fizzarolli",
+                text={
+                    "Creates the last",
+                    "{C:tarot}Tarot{} or {C:planet}Planet{} card",
+                    "used during this run",
+                    "{s:0.8,C:tarot}Fizzarolli{s:0.8} excluded",
+                },
+            },
+            c_hanged_man={
+                name="Striker",
+                text={
+                    "Assassinates up to",
+                    "{C:attention}#1#{} selected cards",
+                },
+            },
+            c_heirophant={
+                name="Andrealphus",
+                text={
+                    "Enhances {C:attention}#1#",
+                    "selected cards to",
+                    "{C:attention}#2#s",
+                },
+            },
+            c_hermit={
+                name="Mammon",
+                text={
+                    "Embezzels money",
+                    "{C:inactive}(Max of {C:money}$#1#{C:inactive})",
+                },
+            },
+            c_high_priestess={
+                name="Sallie May",
+                text={
+                    "Creates up to {C:attention}#1#",
+                    "random {C:planet}Planet{} cards",
+                    "{C:inactive}(Must have room)",
+                },
+            },
+            c_judgement={
+                name="Human Loona",
+                text={
+                    "Creates a random",
+                    "{C:attention}Joker{} card",
+                    "{C:inactive}(Must have room)",
+                },
+            },
+            c_justice={
+                name="Satan",
+                text={
+                    "Enhances {C:attention}#1#{} selected",
+                    "card into a",
+                    "{C:attention}#2#",
+                },
+            },
+            c_lovers={
+                name="Verosika",
+                text={
+                    "Sluts up {C:attention}#1#{}",
+                    "selected card",
+                    "into a {C:attention}#2#",
+                },
+            },
+            c_magician={
+                name="Octavia",
+                text={
+                    "Enhances {C:attention}#1#{}",
+                    "selected cards to",
+                    "{C:attention}#2#s",
+                },
+            },
+            c_moon={
+                name="Barbie",
+                text={
+                    "Converts up to",
+                    "{C:attention}#1#{} selected cards",
+                    "to {V:1}#2#{}",
+                },
+            },
+            c_star={
+                name="Blitzo",
+                text={
+                    "Converts up to",
+                    "{C:attention}#1#{} selected cards",
+                    "to {V:1}#2#{}",
+                },
+            },
+            c_strength={
+                name="Loona",
+                text={
+                    "Increases rank of",
+                    "up to {C:attention}#1#{} selected",
+                    "cards by {C:attention}1",
+                },
+            },
+            c_sun={
+                name="Asmodeus",
+                text={
+                    "Converts up to",
+                    "{C:attention}#1#{} selected cards",
+                    "to {V:1}#2#{}",
+                },
+            },
+            c_temperance={
+                name="Vortex",
+                text={
+                    "Gives the total sell",
+                    "value of all current",
+                    "Jokers {C:inactive}(Max of {C:money}$#1#{C:inactive})",
+                    "{C:inactive}(Currently {C:money}$#2#{C:inactive})",
+                },
+            },
+            c_tower={
+                name="Crimson",
+                text={
+                    "Enhances {C:attention}#1#{} selected",
+                    "card into a",
+                    "{C:attention}#2#",
+                },
+            },
+            c_wheel_of_fortune={
+                name="Beelzebub",
+                text={
+                    "{C:green}#1# in #2#{} chance to add",
+                    "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, or",
+                    "{C:dark_edition}Polychrome{} edition",
+                    "to a random {C:attention}Joker",
+                },
+            },
+            c_world={
+                name="Stolas",
+                text={
+                    "Converts up to",
+                    "{C:attention}#1#{} selected cards",
+                    "to {V:1}#2#{}",
+                },
+            },
+        },
+		Joker={
+			j_arrowhead={
+                name="Arrowhead",
+                text={
+                    "Played cards with",
+                    "{C:spades}Crown{} suit give",
+                    "{C:chips}+#1#{} Chips when scored",
+                },
+                unlock={
+                    "Have at least {E:1,C:attention}#1#",
+                    "cards with {E:1,C:attention}#2#",
+                    "suit in your deck",
+                },
+            },
+            j_flower_pot={
+                name="Flower Pot",
+                text={
+                    "{X:mult,C:white} X#1# {} Mult if poker",
+                    "hand contains a",
+                    "{C:diamonds}Mammon{} card, {C:clubs}Moon{} card,",
+                    "{C:hearts}Heart{} card, and {C:spades}Crown{} card",
+                },
+                unlock={
+                    "Reach Ante",
+                    "level {E:1,C:attention}#1#",
+                },
+            },
+            j_onyx_agate={
+                name="Onyx Agate",
+                text={
+                    "Played cards with",
+                    "{C:clubs}Moon{} suit give",
+                    "{C:mult}+#1#{} Mult when scored",
+                },
+                unlock={
+                    "Have at least {E:1,C:attention}#1#",
+                    "cards with {E:1,C:attention}#2#",
+                    "suit in your deck",
+                },
+            },
+            j_rough_gem={
+                name="Rough Gem",
+                text={
+                    "Played cards with",
+                    "{C:diamonds}Mammon{} suit earn",
+                    "{C:money}$#1#{} when scored",
+                },
+                unlock={
+                    "Have at least {E:1,C:attention}#1#",
+                    "cards with {E:1,C:attention}#2#",
+                    "suit in your deck",
+                },
+            },
+            j_seeing_double={
+                name="Seeing Double",
+                text={
+                    "{X:mult,C:white} X#1# {} Mult if played",
+                    "hand has a scoring",
+                    "{C:clubs}Moon{} card and a scoring",
+                    "card of any other {C:attention}suit",
+                },
+                unlock={
+                    "Play a hand",
+                    "that contains",
+                    "{E:1,C:attention}#1#",
+                },
+            },
+            j_smeared={
+                name="Smeared Joker",
+                text={
+                    "{C:hearts}Hearts{} and {C:diamonds}Mammons",
+                    "count as the same suit,",
+                    "{C:spades}Crowns{} and {C:clubs}Moons",
+                    "count as the same suit",
+                },
+                unlock={
+                    "Have at least {C:attention}#1#",
+                    "{E:1,C:attention}#2#{} in",
+                    "your deck",
+                },
+            },
+			j_odd_todd={
+                name="Horse Stolas",
+                text={
+                    "Played cards with",
+                    "{C:attention}odd{} rank give",
+                    "{C:chips}+#1#{} Chips when scored",
+                    "{C:inactive}(A, 9, 7, 5, 3)",
+                },
+			},
+			j_family={
+                name="I.M.P.",
+                text={
+                    "{X:mult,C:white} X#1# {} Mult if played",
+                    "hand contains",
+                    "a {C:attention}#2#",
+                },
+                unlock={
+                    "Win a run",
+                    "without playing",
+                    "a {E:1,C:attention}#1#",
+                },
+            },
+		}
+	},
+    misc = {
+        suits_plural = { Spades="Crowns", Hearts="Hearts", Clubs="Moons", Diamonds="Mammons", },
+        suits_singular = { Spade="Crown", Heart="Heart", Club="Moon", Diamond="Mammon", },
+		dictionary={ 
+			h_4_7_of_clubs="four 7 of Moons",
+			
+			-- Config
+
+			helluvanorestart = "Restart Not Required",
+			helluvayesrestart = "Restart Required",
+
+			-- Credits
+			
+			helluvacredits = "Credits",
+			helluvacredits_thanks = "Thanks to",
+			helluvacredits_lead = "Lead Developer: ",
+			helluvacredits_card_artist = "Original Card Art: ",
+			helluvacredits_joker_logic = "Joker Logic: ",
+			helluvacredits_localization = "Localization: ",
+			helluvacredits_special_thanks = "Special Thanks: ",
+			donate = "Donate",
+		},
+		quips = {
+		
+			-- Wins
+		
+			hbp_fizzwin = {'You\'re my little', '{C:attention}pog champ{}!'},
+			hbp_mammonwin = {'You\'re a', 'bloody legend!'},
+		
+			-- Losses
+		
+			hbp_blitzoloss1 = {'Fuck!'},
+			hbp_blitzoloss2 = {'HAAAAAA!'},
+			hbp_fizzloss = {'That wasn\'t very', '{C:attention}sigma{} of you.'},
+			hbp_glitzglamloss = {'You\'re a clown bitch.'},
+			hbp_octavialoss = {'I think you\'d like this song,', 'it\'s called {C:attention}fuck you{}.'},
+			hbp_stolasloss = {'You, you\'re... you\'re a- A CUNT!'},
+		}
+	}
+}
