@@ -1,4 +1,4 @@
 return {
-  ["helluvaquips"]=true
-  ["helluvacustomsuits"]=true
+  ["helluvaquips"]=true,
+  ["helluvacustomsuits"]=false
 }
