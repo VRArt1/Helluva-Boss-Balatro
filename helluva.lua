@@ -8,8 +8,10 @@ else
   UI()
 end
 
+-- local helluvaquips = true
+
 -- Load Quips file
-if helluvaquips then
+if helluva_config.helluvaquips then
     SMODS.load_file("quips.lua")()
 else
 end
