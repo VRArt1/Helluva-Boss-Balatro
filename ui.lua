@@ -169,6 +169,33 @@ SMODS.current_mod.extra_tabs = function()
               }
             },
           },
+		  {
+            n = G.UIT.R,
+            config = {
+              padding = 0,
+              align = "cm"
+            },
+            nodes = {
+              {
+                n = G.UIT.T,
+                config = {
+                  text = localize("helluvacredits_metal_card_artist"),
+                  shadow = true,
+                  scale = scale * 0.8,
+                  colour = G.C.UI.TEXT_LIGHT
+                }
+              },
+              {
+                n = G.UIT.T,
+                config = {
+                  text = "Par0lllel",
+                  shadow = true,
+                  scale = scale * 0.8,
+                  colour = HEX("f5d985")
+                }
+              }
+            },
+          },
 		            {
             n = G.UIT.R,
             config = {
