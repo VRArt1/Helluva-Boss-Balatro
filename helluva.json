@@ -3,7 +3,7 @@
 	"name": "Helluva Balatro",
 	"display_name": "Helluva Boss",
 	"author": ["V--R"],
-	"description": "Helluva Boss overhaul mod including the following: Custom Deck, 5 Card Backs (Malverk), 2 New Jokers, 5 Sleeves (Malverk), Tarots (Malverk), 8 Quips.",
+	"description": "Helluva Boss overhaul mod including the following: Custom Deck, 5 Card Backs (Malverk), 5 Sleeves, Tarots (Malverk), 8 Quips.",
 	"prefix": "hbp",
 	"main_file": "helluva.lua",
 	"priority": 0,
