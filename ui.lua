@@ -7,50 +7,51 @@ SMODS.current_mod.config_tab = function()
     nodes = {
 	
 		-- {
-      -- n = G.UIT.R,
-      -- config = {
-        -- padding = 0.25,
-        -- align = "cm"
-      -- },
-      -- nodes = {
-        -- {
-          -- n = G.UIT.T,
-          -- config = {
-            -- text = localize("helluvanorestart"),
-            -- shadow = true,
-            -- scale = 0.75 * 0.8,
-            -- colour = HEX("f5d985")
-          -- }
-        -- }
-      -- },
-    -- },
-
-
-	  {
-      n = G.UIT.R,
-      config = {
-        padding = 0.25,
-        align = "cm"
-      },
-      nodes = {
-        {
-          n = G.UIT.T,
-          config = {
-            text = localize("helluvayesrestart"),
-            shadow = true,
-            scale = 0.75 * 0.8,
-            colour = HEX("d80007")
-          }
-        }
-      },
-    },
+			-- n = G.UIT.R,
+			-- config = {
+			-- padding = 0.25,
+			-- align = "cm"
+			-- },
+			-- nodes = {
+				-- {
+					-- n = G.UIT.T,
+					-- config = {
+					-- text = localize("helluvanorestart"),
+					-- shadow = true,
+					-- scale = 0.75 * 0.8,
+					-- colour = HEX("f5d985")
+					-- }
+				-- }
+			-- },
+		-- },
+		
 		{
 			n = G.UIT.R,
-			config = { align = 'cm'},
+			config = {
+			padding = 0.25,
+			align = "cm"
+			},
 			nodes = {
 				{
-				  n = G.UIT.C,
-				  nodes = {
+					n = G.UIT.T,
+					config = {
+					text = localize("helluvayesrestart"),
+					shadow = true,
+					scale = 0.75 * 0.8,
+					colour = HEX("d80007")
+					},
+				},
+			},
+		},
+		
+		{
+			n = G.UIT.R,
+			config = { align = 'cl'},
+			nodes = {
+				{
+					n = G.UIT.C,
+					-- config = { align = 'cm'},
+					nodes = {
 					create_toggle {
 						label = localize('helluvacustomsuits'),
 						ref_table = helluva_config,
@@ -62,10 +63,10 @@ SMODS.current_mod.config_tab = function()
 		},
 		{
 			n = G.UIT.R,
+			-- config = { align = 'cm'},
 			nodes = {
 			  {
 				n = G.UIT.C,
-				config = { align = 'cm'},
 				nodes = {
 				  create_toggle {
 					label = localize('helluva_quips'),
@@ -76,6 +77,7 @@ SMODS.current_mod.config_tab = function()
 			  },
 			}
 		},
+		
     }
   }
 end
