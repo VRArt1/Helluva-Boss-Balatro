@@ -1,3 +1,6 @@
 *.log
 *.psd
 /assets/EXTRA
+*.7z
+*.zip
+*.rar
