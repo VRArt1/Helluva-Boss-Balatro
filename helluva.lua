@@ -74,7 +74,7 @@ AltTexture({
     key = 'enhancersHELLUVA',
     set = 'Enhanced',
     path = 'helluvaenhancers.png',
-	keys = {'b_red','b_blue','b_yellow','b_green','b_black'},
+	keys = {'b_red','b_blue','b_yellow','b_green','b_black','m_bonus','m_stone'},
 	display_pos = 'b_red',
 	original_sheet = true
 })
