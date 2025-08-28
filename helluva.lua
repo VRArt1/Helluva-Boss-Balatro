@@ -105,7 +105,8 @@ TexturePack {
         text = {
             "Helluva Boss",
             "playing card backs,",
-	    "jokers and tarots."
+	    "jokers, enhancers",
+	    "and tarots."
         }
     }
 }
