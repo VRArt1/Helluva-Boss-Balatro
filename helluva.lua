@@ -1,5 +1,5 @@
+-- Load Config file
 helluva_config = SMODS.current_mod.config
-
 -- Load UI file
 local UI, load_error = SMODS.load_file("ui.lua")
 if load_error then
@@ -7,9 +7,6 @@ if load_error then
 else
   UI()
 end
-
--- local helluvaquips = true
-
 -- Load Quips file
 if helluva_config.helluvaquips then
     SMODS.load_file("quips.lua")()
@@ -33,14 +30,13 @@ SMODS.Atlas {
   py = 32,
   path = 'modicon.png'
 }
-
-    SMODS.Atlas:take_ownership('casl_sleeve_atlas',
-        {
-            path = 'helluvasleeves.png',  -- your sleeve atlas path
-        },
-        true
-    )
-    SMODS.Atlases['casl_sleeve_atlas'].mod = SMODS.current_mod
+SMODS.Atlas:take_ownership('casl_sleeve_atlas',
+	{
+		path = 'helluvasleeves.png',  -- your sleeve atlas path
+	},
+	true
+)
+SMODS.Atlases['casl_sleeve_atlas'].mod = SMODS.current_mod
 
 SMODS.Atlas{  
     key = atlas_key..'_lc',

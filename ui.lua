@@ -6,42 +6,26 @@ SMODS.current_mod.config_tab = function()
     config = { align = 'cm', padding = 0.05, emboss = 0.05, r = 0.1, colour = G.C.BLACK },
     nodes = {
 	
-		{
-      n = G.UIT.R,
-      config = {
-        padding = 0.25,
-        align = "cm"
-      },
-      nodes = {
-        {
-          n = G.UIT.T,
-          config = {
-            text = localize("helluvanorestart"),
-            shadow = true,
-            scale = 0.75 * 0.8,
-            colour = HEX("f5d985")
-          }
-        }
-      },
-    },
-	
-      {
-        n = G.UIT.R,
-        nodes = {
-          {
-            n = G.UIT.C,
-			config = { align = 'cm'},
-            nodes = {
-              create_toggle {
-                label = localize('helluva_quips'),
-                ref_table = helluva_config,
-                ref_value = 'helluvaquips'
-              },
-            },
-          },
-        }
-      },
-	  
+		-- {
+      -- n = G.UIT.R,
+      -- config = {
+        -- padding = 0.25,
+        -- align = "cm"
+      -- },
+      -- nodes = {
+        -- {
+          -- n = G.UIT.T,
+          -- config = {
+            -- text = localize("helluvanorestart"),
+            -- shadow = true,
+            -- scale = 0.75 * 0.8,
+            -- colour = HEX("f5d985")
+          -- }
+        -- }
+      -- },
+    -- },
+
+
 	  {
       n = G.UIT.R,
       config = {
@@ -75,6 +59,22 @@ SMODS.current_mod.config_tab = function()
 				  },
 				},
 			},
+		},
+		{
+			n = G.UIT.R,
+			nodes = {
+			  {
+				n = G.UIT.C,
+				config = { align = 'cm'},
+				nodes = {
+				  create_toggle {
+					label = localize('helluva_quips'),
+					ref_table = helluva_config,
+					ref_value = 'helluvaquips'
+				  },
+				},
+			  },
+			}
 		},
     }
   }
