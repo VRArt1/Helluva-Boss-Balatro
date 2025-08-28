@@ -346,6 +346,8 @@ return {
 
 			helluvanorestart = "Restart Not Required",
 			helluvayesrestart = "Restart Required",
+			helluvacustomsuits = "Custom Suits",
+			helluva_quips = "Quips",
 
 			-- Credits
 			
@@ -353,6 +355,7 @@ return {
 			helluvacredits_thanks = "Thanks to",
 			helluvacredits_lead = "Lead Developer: ",
 			helluvacredits_card_artist = "Original Card Art: ",
+			helluvacredits_joker_logic = "Config Coding: ",
 			helluvacredits_joker_logic = "Joker Logic: ",
 			helluvacredits_localization = "Localization: ",
 			helluvacredits_special_thanks = "Special Thanks: ",
