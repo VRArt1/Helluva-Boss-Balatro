@@ -1,3 +1,17 @@
+-- local helluvacustomsuits = true
+-- SMODS.load_file("config.lua")()
+-- helluva_config = SMODS.current_mod.config
+
+if helluvacustomsuits then
+    SPADENAME = "Crown"
+    CLUBNAME = "Moon"
+    DIAMONDNAME = "Mammon"
+else
+    SPADENAME = "Spade"
+    CLUBNAME = "Club"
+    DIAMONDNAME = "Diamond"
+end
+
 return {
 	descriptions = {
 		Back={
@@ -5,7 +19,7 @@ return {
                 name="Checkered Deck",
                 text={
                     "Start run with",
-                    "{C:attention}26{C:spades} Crowns{} and",
+                    "{C:attention}26{C:spades} "..SPADENAME.."s{} and",
                     "{C:attention}26{C:hearts} Hearts{} in deck",
                 },
             },
@@ -14,14 +28,14 @@ return {
             bl_club={
                 name="The Club",
                 text={
-                    "All Moons cards",
+                    "All "..CLUBNAME.."s cards",
                     "are debuffed",
                 },
             },
             bl_goad={
                 name="The Goad",
                 text={
-                    "All Crown cards",
+                    "All "..SPADENAME.." cards",
                     "are debuffed",
                 },
             },
@@ -35,7 +49,7 @@ return {
             bl_window={
                 name="The Window",
                 text={
-                    "All Mammon cards",
+                    "All "..DIAMONDNAME.." cards",
                     "are debuffed",
                 },
             },
@@ -226,7 +240,7 @@ return {
                 name="Arrowhead",
                 text={
                     "Played cards with",
-                    "{C:spades}Crown{} suit give",
+                    "{C:spades}"..SPADENAME.."{} suit give",
                     "{C:chips}+#1#{} Chips when scored",
                 },
                 unlock={
@@ -240,8 +254,8 @@ return {
                 text={
                     "{X:mult,C:white} X#1# {} Mult if poker",
                     "hand contains a",
-                    "{C:diamonds}Mammon{} card, {C:clubs}Moon{} card,",
-                    "{C:hearts}Heart{} card, and {C:spades}Crown{} card",
+                    "{C:diamonds}"..DIAMONDNAME.."{} card, {C:clubs}"..CLUBNAME.."{} card,",
+                    "{C:hearts}Heart{} card, and {C:spades}"..SPADENAME.."{} card",
                 },
                 unlock={
                     "Reach Ante",
@@ -252,7 +266,7 @@ return {
                 name="Onyx Agate",
                 text={
                     "Played cards with",
-                    "{C:clubs}Moon{} suit give",
+                    "{C:clubs}"..CLUBNAME.."{} suit give",
                     "{C:mult}+#1#{} Mult when scored",
                 },
                 unlock={
@@ -265,7 +279,7 @@ return {
                 name="Rough Gem",
                 text={
                     "Played cards with",
-                    "{C:diamonds}Mammon{} suit earn",
+                    "{C:diamonds}"..DIAMONDNAME.."{} suit earn",
                     "{C:money}$#1#{} when scored",
                 },
                 unlock={
@@ -279,7 +293,7 @@ return {
                 text={
                     "{X:mult,C:white} X#1# {} Mult if played",
                     "hand has a scoring",
-                    "{C:clubs}Moon{} card and a scoring",
+                    "{C:clubs}"..CLUBNAME.."{} card and a scoring",
                     "card of any other {C:attention}suit",
                 },
                 unlock={
@@ -291,9 +305,9 @@ return {
             j_smeared={
                 name="Smeared Joker",
                 text={
-                    "{C:hearts}Hearts{} and {C:diamonds}Mammons",
+                    "{C:hearts}Hearts{} and {C:diamonds}"..DIAMONDNAME.."s",
                     "count as the same suit,",
-                    "{C:spades}Crowns{} and {C:clubs}Moons",
+                    "{C:spades}"..SPADENAME.."s{} and {C:clubs}"..CLUBNAME.."s",
                     "count as the same suit",
                 },
                 unlock={
@@ -327,10 +341,10 @@ return {
 		}
 	},
     misc = {
-        suits_plural = { Spades="Crowns", Hearts="Hearts", Clubs="Moons", Diamonds="Mammons", },
-        suits_singular = { Spade="Crown", Heart="Heart", Club="Moon", Diamond="Mammon", },
+        suits_plural = { Spades=SPADENAME.."s", Hearts="Hearts", Clubs=CLUBNAME.."s", Diamonds=DIAMONDNAME.."s", },
+        suits_singular = { Spade=SPADENAME, Heart="Heart", Club=CLUBNAME, Diamond=DIAMONDNAME, },
 		dictionary={ 
-			h_4_7_of_clubs="four 7 of Moons",
+			h_4_7_of_clubs="four 7 of "..CLUBNAME.."s",
 			
 			-- Config
 
