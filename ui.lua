@@ -305,20 +305,17 @@ SMODS.current_mod.extra_tabs = function()
             }
           },
           {
-            n = G.UIT.R,
-            config = {
-              padding = 0.2,
-              align = "cm",
-            },
+            n = G.UIT.R, config = { padding = 0.2, align = "cm", -- colour = G.C.BLUE 
+			},
             nodes = {
               UIBox_button({
-                minw = 3.85,
-		colour = HEX("d80007"),
+                -- minw = 3.85,
+				colour = HEX("d80007"),
                 button = "vrgithub",
                 label = {"Github"}
               }),
               UIBox_button({
-                minw = 3.85,
+                -- minw = 3.85,
                 colour = HEX("f5d985"),
                 button = "vrdonate",
                 label = {"Donate"}
