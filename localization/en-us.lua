@@ -355,7 +355,7 @@ return {
 			helluvacredits_thanks = "Thanks to",
 			helluvacredits_lead = "Lead Developer: ",
 			helluvacredits_card_artist = "Original Card Art: ",
-			helluvacredits_joker_logic = "Config Coding: ",
+			helluvacredits_config_coding = "Config Coding: ",
 			helluvacredits_joker_logic = "Joker Logic: ",
 			helluvacredits_localization = "Localization: ",
 			helluvacredits_special_thanks = "Special Thanks: ",
