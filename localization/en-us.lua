@@ -1,8 +1,4 @@
--- local helluvacustomsuits = true
--- SMODS.load_file("config.lua")()
--- helluva_config = SMODS.current_mod.config
-
-if helluvacustomsuits then
+if helluva_config.helluvacustomsuits then
     SPADENAME = "Crown"
     CLUBNAME = "Moon"
     DIAMONDNAME = "Mammon"
