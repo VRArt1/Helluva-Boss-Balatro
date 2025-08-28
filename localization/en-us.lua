@@ -364,18 +364,53 @@ return {
 		quips = {
 		
 			-- Wins
-		
+			hbp_andrealphuswin = {''},
+			hbp_asmodeuswin = {''},
+			hbp_barbiewin = {''},
+			hbp_beelzebubwin = {''},
+			hbp_blitzowin = {''},
+			hbp_crimsonwin = {''},
 			hbp_fizzwin = {'You\'re my little', '{C:attention}pog champ{}!'},
+			hbp_glitzglamwin = {''},
+			hbp_humanloonawin = {''},
+			hbp_loonawin = {''},
+			hbp_luciferwin = {''},
 			hbp_mammonwin = {'You\'re a', 'bloody legend!'},
+			hbp_milliewin = {''},
+			hbp_moxxiewin = {''},
+			hbp_octaviawin = {''},
+			hbp_salliemaywin = {''},
+			hbp_satanwin = {''},
+			hbp_stellawin = {''},
+			hbp_stolaswin = {''},
+			hbp_strikerwin = {''},
+			hbp_verosikawin = {''},
+			hbp_vortexwin = {''},
 		
 			-- Losses
-		
-			hbp_blitzoloss1 = {'Fuck!'},
-			hbp_blitzoloss2 = {'HAAAAAA!'},
+			
+			hbp_andrealphusloss = {''},
+			hbp_asmodeusloss = {''},
+			hbp_barbieloss = {''},
+			hbp_beelzebubloss = {''},
+			hbp_blitzoloss = {'HAAAAAA! Loser!'},
+			hbp_crimsonloss = {''},
 			hbp_fizzloss = {'That wasn\'t very', '{C:attention}sigma{} of you.'},
 			hbp_glitzglamloss = {'You\'re a clown bitch.'},
+			hbp_humanloonaloss = {''},
+			hbp_loonaloss = {''},
+			hbp_luciferloss = {''},
+			hbp_mammonloss = {''},
+			hbp_millieloss = {''},
+			hbp_moxxieloss = {''},
 			hbp_octavialoss = {'I think you\'d like this song,', 'it\'s called {C:attention}fuck you{}.'},
+			hbp_salliemayloss = {''},
+			hbp_satanloss = {''},
+			hbp_stellaloss = {''},
 			hbp_stolasloss = {'You, you\'re... you\'re a- A CUNT!'},
+			hbp_strikerloss = {''},
+			hbp_verosikaloss = {''},
+			hbp_vortexloss = {''},
 		}
 	}
 }
