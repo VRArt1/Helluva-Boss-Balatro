@@ -1,4 +1,5 @@
 helluva_config = SMODS.current_mod.config
+
 -- Load UI file
 local UI, load_error = SMODS.load_file("ui.lua")
 if load_error then
