@@ -410,7 +410,7 @@ return {
 			hbp_octavialoss = {'I think you\'d like this song,', 'it\'s called {C:attention}fuck you{}.'},
 			hbp_salliemayloss = {''},
 			hbp_satanloss = {''},
-			hbp_stellaloss = {'You are a goddamn embarrassment!', 'I\'m not spending another moment with your imp fucking face!'}, -- Mian
+			hbp_stellaloss = {'You are a goddamn embarrassment!', 'I\'m not spending another moment', 'with your imp fucking face!'}, -- Mian
 			hbp_stolasloss = {'You, you\'re... you\'re a- A CUNT!'}, -- Cynder
 			hbp_strikerloss = {'Don\'t worry little one, you never stood a chance.'}, -- Mian
 			hbp_verosikaloss = {''},
