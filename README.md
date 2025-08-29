@@ -4,11 +4,11 @@
 This mod aims to be an overhaul of Balatro adding in content as if it was an official Vivziepop collab and yes that means as much swearing and dark colors as I could squeeze in.
 
 This mod adds the following:
-Main Menu Logo (Toggleable)
-Custom Deck (Low Contrast and High Contrast versions)
-Custom Suit Names (Toggleable)
-5 Card Backs (Malverk)
-2 Enhancers (Malverk)
-5 Sleeves
-16 Quips (Toggleable)
-8 Swears
+* Main Menu Logo (Toggleable)
+* Custom Deck (Low Contrast and High Contrast versions)
+* Custom Suit Names (Toggleable)
+* 5 Card Backs (Malverk)
+* 2 Enhancers (Malverk)
+* 5 Sleeves
+* 16 Quips (Toggleable)
+* 8 Swears
