@@ -16,6 +16,11 @@ This mod aims to be an overhaul of Balatro adding in content as if it was an off
 * 16 Quips <sub>Toggleable</sub>
 * 8 **Swears** <sub>Fuck</sub>
 
+## Jokers
+This mod adds the following **2** new jokers.
+* I.M.P. (Uncommon) - Adds **x3 Mult** if played hand is a **Four of a Kind** made up of only **Diamonds/Mammons**.
+* Stolhorse (Rare) - Adds **x6 Mult** if played hand is a single **Crown/Spade** card.
+
 ## Usage
 Download the mod along with the below dependencies and place within the Balatro mods folder. Within the Malverk menu enable the `Helluva Boss` texture pack. Use the config within the mod menu to enable and disable options and restart to apply.
 
@@ -45,7 +50,7 @@ Addition of sleeves.
 Addition of custom ui image for suits.
 Addition of seals.
 Addition of 2 jokers.
-Addition of 2 new unique jokers.
+Addition of 2 new jokers.
 -------------------------------- 1.6.0 --------------------------------
 Adjusted Sallie May and Striker tarot cards to match the others.
 Adjusted tarot character selections to better match abilities.
