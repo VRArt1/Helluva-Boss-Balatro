@@ -133,7 +133,7 @@ AltTexture({
     key = 'jokersHELLUVA',
     set = 'Joker',
     path = 'helluvajokers.png',
-	keys = {'j_family','j_odd_todd'},
+	keys = {'j_joker','j_family','j_odd_todd'},
 	original_sheet = true
 })
 
