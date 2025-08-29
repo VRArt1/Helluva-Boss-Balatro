@@ -13,9 +13,7 @@ if helluva_config.helluvaquips then
 else
 end
 
-
 local atlas_key = 'hbp_atlas' -- Format: PREFIX_KEY
--- See end of file for notes
 local atlas_path = 'helluvaboss_lc.png' -- Filename for the image in the asset folder
 local atlas_path_hc = 'helluvaboss_hc.png' -- Filename for the high-contrast version of the texture, if existing
 
@@ -24,26 +22,30 @@ local ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', "K
 
 local description = 'Helluva Boss' -- English-language description, also used as default
 
+-- Modicon
 SMODS.Atlas {
   key = 'modicon',
   px = 32,
   py = 32,
   path = 'modicon.png'
 }
+
+-- Card Sleeves
 SMODS.Atlas:take_ownership('casl_sleeve_atlas',
 	{
-		path = 'helluvasleeves.png',  -- your sleeve atlas path
+		path = 'helluvasleeves.png', 
 	},
 	true
 )
 SMODS.Atlases['casl_sleeve_atlas'].mod = SMODS.current_mod
 
+-- Cards
 SMODS.Atlas{  
     key = atlas_key..'_lc',
     px = 71,
     py = 95,
     path = atlas_path,
-    prefix_config = {key = false}, -- See end of file for notes
+    prefix_config = {key = false},
 }
 
 if atlas_path_hc then
@@ -52,7 +54,7 @@ if atlas_path_hc then
         px = 71,
         py = 95,
         path = atlas_path_hc,
-        prefix_config = {key = false}, -- See end of file for notes
+        prefix_config = {key = false},
     }
 end
 
@@ -70,6 +72,7 @@ for _, suit in ipairs(suits) do
     }
 end
 
+-- Malverk
 AltTexture({
     key = 'enhancersHELLUVA',
     set = 'Enhanced',
@@ -110,9 +113,3 @@ TexturePack {
         }
     }
 }
-
--- Notes:
-
--- The current version of Steamodded has a bug with prefixes in mods including `DeckSkin`s.
--- By manually including the prefix in the atlas' key, this should keep the mod functional
--- even after this bug is fixed.

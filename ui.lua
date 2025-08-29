@@ -250,6 +250,69 @@ SMODS.current_mod.extra_tabs = function()
               -- }
             -- },
           -- },
+		            -- {
+            -- n = G.UIT.R,
+            -- config = {
+              -- padding = 0,
+              -- align = "cm"
+            -- },
+            -- nodes = {
+              -- {
+                -- n = G.UIT.T,
+                -- config = {
+                  -- text = localize("helluvacredits_localization"),
+                  -- shadow = true,
+                  -- scale = scale * 0.8,
+                  -- colour = G.C.UI.TEXT_LIGHT
+                -- }
+              -- },
+              -- {
+                -- n = G.UIT.T,
+                -- config = {
+                  -- text = "PLACEHOLDER",
+                  -- shadow = true,
+                  -- scale = scale * 0.8,
+                  -- colour = HEX("d80007")
+                -- }
+              -- }
+            -- },
+          -- },
+		  {
+            n = G.UIT.R,
+            config = {
+              padding = 0,
+              align = "cm"
+            },
+            nodes = {
+              {
+                n = G.UIT.T,
+                config = {
+                  text = localize("helluvacredits_quippers"),
+                  shadow = true,
+                  scale = scale * 0.8,
+                  colour = G.C.UI.TEXT_LIGHT
+                }
+              },
+			  {
+                n = G.UIT.T,
+                config = {
+                  text = "Cynder",
+                  shadow = true,
+                  scale = scale * 0.8,
+                  colour = HEX("71529d")
+                }
+              },
+              {
+                n = G.UIT.T,
+                config = {
+                  text = " & Mian",
+                  shadow = true,
+                  scale = scale * 0.8,
+                  colour = HEX("d80007")
+                }
+              }
+            }
+          },
           {
             n = G.UIT.R,
             config = {
@@ -269,7 +332,7 @@ SMODS.current_mod.extra_tabs = function()
               {
                 n = G.UIT.T,
                 config = {
-                  text = "Cynder, Larswijn, Larz",
+                  text = "Larswijn & Larz",
                   shadow = true,
                   scale = scale * 0.8,
                   colour = HEX("d80007")
@@ -304,24 +367,36 @@ SMODS.current_mod.extra_tabs = function()
               }
             }
           },
-          {
-            n = G.UIT.R, config = { padding = 0.2, align = "cm", -- colour = G.C.BLUE 
+		  {
+            n = G.UIT.R, config = { padding = 0, align = "cm", -- colour = G.C.BLUE 
 			},
-            nodes = {
-              UIBox_button({
-                -- minw = 3.85,
-				colour = HEX("d80007"),
-                button = "vrgithub",
-                label = {"Github"}
-              }),
-              UIBox_button({
-                -- minw = 3.85,
-                colour = HEX("f5d985"),
-                button = "vrdonate",
-                label = {"Donate"}
-              })
-            },
-          },
+			nodes = {
+				  {
+					n = G.UIT.C, config = { padding = 0.2, align = "cl", -- colour = G.C.RED 
+					},
+					nodes = {
+					  UIBox_button({
+						-- minw = 3.85,
+						colour = HEX("d80007"),
+						button = "vrgithub",
+						label = {"Github"}
+					  }),
+					},
+				  },
+				  {
+					n = G.UIT.C, config = { padding = 0.2, align = "cr", -- colour = G.C.YELLOW
+					},
+					nodes = {
+					  UIBox_button({
+						-- minw = 3.85,
+						colour = HEX("f5d985"),
+						button = "vrdonate",
+						label = {"Donate"}
+					  })
+					},
+				  },
+			},
+		},
         },
       }
     end

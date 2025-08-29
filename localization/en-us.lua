@@ -359,6 +359,7 @@ return {
 			helluvacredits_config_coding = "Config Coding: ",
 			helluvacredits_joker_logic = "Joker Logic: ",
 			helluvacredits_localization = "Localization: ",
+			helluvacredits_quippers = "Quips: ",
 			helluvacredits_special_thanks = "Special Thanks: ",
 			donate = "Donate",
 		},
