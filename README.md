@@ -40,6 +40,7 @@ Addition of custom tarot names and descriptions.
 Addition of placeholder blank tarots for the remaining characters.
 Addition of sleeves.
 Addition of custom ui image for suits.
+Addition of seals.
 -------------------------------- 1.6.0 --------------------------------
 Adjusted Sallie May and Striker tarot cards to match the others.
 Adjusted tarot character selections to better match abilities.
