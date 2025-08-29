@@ -13,6 +13,17 @@ if helluva_config.helluvaquips then
 else
 end
 
+assert(SMODS.load_file("jokers.lua"))()
+-- Load Jokers file
+SMODS.Atlas{  
+        key = 'helluva_jokers',
+        px = 71,
+        py = 95,
+        path = "helluva_jokers.png",
+    }
+	
+SMODS.load_file("jokers.lua")()
+
 local atlas_key = 'hbp_atlas' -- Format: PREFIX_KEY
 local atlas_path = 'helluvaboss_lc.png' -- Filename for the image in the asset folder
 local atlas_path_hc = 'helluvaboss_hc.png' -- Filename for the high-contrast version of the texture, if existing
@@ -133,7 +144,7 @@ AltTexture({
     key = 'jokersHELLUVA',
     set = 'Joker',
     path = 'helluvajokers.png',
-	keys = {'j_joker','j_family','j_odd_todd'},
+	keys = {'j_joker', 'j_half'},
 	original_sheet = true
 })
 
@@ -141,6 +152,7 @@ AltTexture({
     key = 'tarotsHELLUVA',
     set = 'Tarot',
     path = 'helluvatarots.png',
+	-- Uncomment below line to remove blank placeholder tarots.
 	-- keys = {'c_fool','c_magician','c_high_priestess','c_empress','c_emperor','c_lovers','c_hermit','c_wheel_of_fortune','c_strength','c_hanged_man','c_star','c_moon','c_sun','c_judgement'},
 	original_sheet = true
 })

@@ -312,28 +312,23 @@ return {
                     "your deck",
                 },
             },
-			j_odd_todd={
-                name="Horse Stolas",
-                text={
-                    "Played cards with",
-                    "{C:attention}odd{} rank give",
-                    "{C:chips}+#1#{} Chips when scored",
-                    "{C:inactive}(A, 9, 7, 5, 3)",
-                },
-			},
-			j_family={
+			
+			-- New Jokers
+			j_hbp_imp={
                 name="I.M.P.",
                 text={
-                    "{X:mult,C:white} X#1# {} Mult if played",
-                    "hand contains",
-                    "a {C:attention}#2#",
+                    "{X:mult,C:white}X#1#{} Mult if {C:attention}played hand{}",
+                    "is a {C:attention}Four of a Kind{}",
+                    "made up of only {C:diamonds}"..DIAMONDNAME.."s{}",
                 },
-                unlock={
-                    "Win a run",
-                    "without playing",
-                    "a {E:1,C:attention}#1#",
+			},
+			j_hbp_horse_stolas={
+                name="Stolhorse",
+                text={
+                    "{X:mult,C:white}X#1#{} Mult if {C:attention}played hand{}",
+                    "is a {C:attention}single {C:spades}"..SPADENAME.." {C:attention}card{}",
                 },
-            },
+			},
 		}
 	},
     misc = {
@@ -358,7 +353,7 @@ return {
 			helluvacredits_card_artist = "Card Art: ",
 			helluvacredits_metal_card_artist = "Metal Card Art: ",
 			helluvacredits_config_coding = "Config Coding: ",
-			helluvacredits_joker_logic = "Joker Logic: ",
+			helluvacredits_joker_logic = "Joker Coding: ",
 			helluvacredits_localization = "Localization: ",
 			helluvacredits_quippers = "Quips: ",
 			helluvacredits_special_thanks = "Special Thanks: ",
