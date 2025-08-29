@@ -367,10 +367,10 @@ return {
 		
 			-- Wins
 			hbp_andrealphuswin = {''},
-			hbp_asmodeuswin = {''},
+			hbp_asmodeuswin = {'You\'re the most inspiring person I\'ve ever known.'}, -- Mian
 			hbp_barbiewin = {''},
-			hbp_beelzebubwin = {''},
-			hbp_blitzowin = {''},
+			hbp_beelzebubwin = {'Hell yeah the honey is flowing tonight!','You are my new favorite person.'}, -- Mian
+			hbp_blitzowin = {'You really know how to put on a show.','Would it fuck up the moment if we made out right now?'}, -- Mian
 			hbp_crimsonwin = {''},
 			hbp_fizzwin = {'You\'re my little', '{C:attention}pog champ{}!'},
 			hbp_glitzglamwin = {''},
@@ -385,7 +385,7 @@ return {
 			hbp_satanwin = {''},
 			hbp_stellawin = {''},
 			hbp_stolaswin = {''},
-			hbp_strikerwin = {''},
+			hbp_strikerwin = {'I\'d like to take this moment to sing a song', 'I wrote just now about you winning.'}, -- Mian
 			hbp_verosikawin = {''},
 			hbp_vortexwin = {''},
 		
@@ -395,24 +395,24 @@ return {
 			hbp_asmodeusloss = {''},
 			hbp_barbieloss = {''},
 			hbp_beelzebubloss = {''},
-			hbp_blitzoloss = {'HAAAAAA! Loser!'},
-			hbp_crimsonloss = {''},
+			hbp_blitzoloss = {'HAAAAAA! Loser!'}, -- Cynder
+			hbp_crimsonloss = {'This is what happens when you cross me.'},
 			hbp_fizzloss = {'That wasn\'t very', '{C:attention}sigma{} of you.'},
 			hbp_glitzglamloss = {'You\'re a clown bitch.'},
 			hbp_humanloonaloss = {''},
 			hbp_loonaloss = {''},
 			hbp_luciferloss = {''},
 			hbp_mammonloss = {''},
-			hbp_millieloss = {''},
+			hbp_millieloss = {'I love you hon, but for fuck\'s sake!'}, -- Mian
 			hbp_moxxieloss = {''},
 			hbp_octavialoss = {'I think you\'d like this song,', 'it\'s called {C:attention}fuck you{}.'},
 			hbp_salliemayloss = {''},
 			hbp_satanloss = {''},
-			hbp_stellaloss = {''},
-			hbp_stolasloss = {'You, you\'re... you\'re a- A CUNT!'},
-			hbp_strikerloss = {''},
+			hbp_stellaloss = {'You are a goddamn embarrassment!', 'I\'m not spending another moment with your imp fucking face!'}, -- Mian
+			hbp_stolasloss = {'You, you\'re... you\'re a- A CUNT!'}, -- Cynder
+			hbp_strikerloss = {'Don\'t worry little one, you never stood a chance.'}, -- Mian
 			hbp_verosikaloss = {''},
-			hbp_vortexloss = {''},
+			hbp_vortexloss = {'Well, guess it\'s time to bounce.'}, -- Mian
 		}
 	}
 }

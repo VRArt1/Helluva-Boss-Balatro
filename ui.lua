@@ -46,7 +46,7 @@ SMODS.current_mod.config_tab = function()
 		
 		{
 			n = G.UIT.R,
-			config = { align = 'cl'},
+			config = { align = 'cl', tooltip = {text = {"Changes suit names.","Clubs = Moons, Diamonds = Mammons, Spades = Crowns."}},},
 			nodes = {
 				{
 					n = G.UIT.C,
@@ -63,7 +63,7 @@ SMODS.current_mod.config_tab = function()
 		},
 		{
 			n = G.UIT.R,
-			-- config = { align = 'cm'},
+			config = { tooltip = {text = {"Adds custom quips."}},},
 			nodes = {
 			  {
 				n = G.UIT.C,
@@ -293,13 +293,18 @@ SMODS.current_mod.extra_tabs = function()
                   colour = G.C.UI.TEXT_LIGHT
                 }
               },
-			  {
+			 {
                 n = G.UIT.T,
                 config = {
                   text = "Cynder",
                   shadow = true,
                   scale = scale * 0.8,
-                  colour = HEX("8842AE")
+                  colour = HEX("8842AE"),
+				  juice = true,
+				  button = "cynderaaa",
+				  tooltip = {text = {"Click Me"}},
+				  -- outline = 1,
+				  -- outline_colour = HEX("d80007")
                 }
               },
               {
@@ -410,4 +415,8 @@ function G.FUNCS.vrgithub(e)
 end
 function G.FUNCS.vrdonate(e)
   love.system.openURL("https://ko-fi.com/vrart1")
+end
+
+function G.FUNCS.cynderaaa(e)
+  love.system.openURL("https://cdn.discordapp.com/attachments/502171319777886230/1274889670710525993/aaaaaacynder-ezgif.com-resize.gif?ex=68b24787&is=68b0f607&hm=25820ca6615d28d1ae39adadc9c494cd82ed6bbc1135961d4ce0a2dcd38a4c79&")
 end
