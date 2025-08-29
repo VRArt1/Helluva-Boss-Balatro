@@ -3,14 +3,15 @@
 This mod aims to be an overhaul of Balatro adding in content as if it was an official Vivziepop collab and yes that means as much swearing, edgy humor, and dark colors as I could squeeze in.
 
 ## Mod Content
-* Main Menu Logo <sub>(Toggleable)</sub>
-* Custom Deck <sub>(Low and High Contrast versions)</sub>
-* Custom Suit Names <sub>(Toggleable)</sub>
-* 5 Card Backs <sub>(Malverk)</sub>
-* 2 Enhancers <sub>(Malverk)</sub>
+* Main Menu Logo <sub>Toggleable</sub>
+* Custom Deck <sub>Low and High Contrast versions</sub>
+* Custom Suit Names <sub>Toggleable</sub>
+* Custom UI Image <sub>Toggleable</sub>
+* 5 Card Backs <sub>Malverk</sub>
+* 2 Enhancers <sub>Malverk</sub>
 * 5 Sleeves
-* 16 Quips <sub>(Toggleable)</sub>
-* 8 **Swears**
+* 16 Quips <sub>Toggleable</sub>
+* 8 **Swears** <sub>Fuck</sub>
 
 ## Usage
 Download the mod along with the below dependencies and place within the Balatro mods folder. Within the Malverk menu enable the `Helluva Boss` texture pack. Use the config within the mod menu to enable and disable options and restart to apply.
@@ -38,6 +39,7 @@ Addition of custom suits names (toggleable).
 Addition of custom tarot names and descriptions.
 Addition of placeholder blank tarots for the remaining characters.
 Addition of sleeves.
+Addition of custom ui image for suits.
 -------------------------------- 1.6.0 --------------------------------
 Adjusted Sallie May and Striker tarot cards to match the others.
 Adjusted tarot character selections to better match abilities.
