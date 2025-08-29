@@ -299,7 +299,7 @@ SMODS.current_mod.extra_tabs = function()
                   text = "Cynder",
                   shadow = true,
                   scale = scale * 0.8,
-                  colour = HEX("71529d")
+                  colour = HEX("8842AE")
                 }
               },
               {
