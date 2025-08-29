@@ -366,6 +366,7 @@ return {
 		quips = {
 		
 			-- Wins
+			
 			hbp_andrealphuswin = {''},
 			hbp_asmodeuswin = {'You\'re the most inspiring person I\'ve ever known.'}, -- Mian
 			hbp_barbiewin = {''},
