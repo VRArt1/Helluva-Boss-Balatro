@@ -28,7 +28,7 @@ If you like this mod and want to support the development of it and other mods co
 
 ## Changelog
 ```
-1.8.0
+-------------------------------- 1.8.0 --------------------------------
 Added json.
 Added config and credits tabs.
 Adjusted Stolas and Barbie tarot choices to properly match suits.
@@ -38,15 +38,12 @@ Addition of custom suits names (toggleable).
 Addition of custom tarot names and descriptions.
 Addition of placeholder blank tarots for the remaining characters.
 Addition of sleeves.
-
-1.6.0
+-------------------------------- 1.6.0 --------------------------------
 Adjusted Sallie May and Striker tarot cards to match the others.
 Adjusted tarot character selections to better match abilities.
-
-1.5.0
+-------------------------------- 1.5.0 --------------------------------
 Fixed orientation of 5 of spades.
 Addition 14 tarot cards.
-
-1.0.0
+-------------------------------- 1.0.0 --------------------------------
 Initial
 ```
