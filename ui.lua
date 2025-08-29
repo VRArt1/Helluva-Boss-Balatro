@@ -46,7 +46,7 @@ SMODS.current_mod.config_tab = function()
 		
 		{
 			n = G.UIT.R,
-			config = { align = 'cl', tooltip = {text = {"Changes suit names.","Clubs = Moons, Diamonds = Mammons, Spades = Crowns."}},},
+			config = { align = 'cl', tooltip = {text = {"Changes suit names and deck UI images.","Clubs = Moons, Diamonds = Mammons, Spades = Crowns."}},},
 			nodes = {
 				{
 					n = G.UIT.C,

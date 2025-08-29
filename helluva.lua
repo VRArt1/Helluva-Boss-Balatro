@@ -51,6 +51,41 @@ SMODS.Atlas{
 else
 end
 
+-- UI suits
+
+if helluva_config.helluvacustomsuits then
+	SMODS.Atlas{
+		key = 'ui_1',
+		px = 18,
+		py = 18,
+		path = "ui_assets.png",
+		prefix_config = {key = false},
+	}
+	SMODS.Atlas{
+		key = 'ui_2',
+		px = 18,
+		py = 18,
+		path = "ui_assets_opt2.png",
+		prefix_config = {key = false},
+	}
+else
+	SMODS.Atlas{
+		key = 'ui_1',
+		px = 18,
+		py = 18,
+		path = "ui_assets_original.png",
+		prefix_config = {key = false},
+	}
+	SMODS.Atlas{
+		key = 'ui_2',
+		px = 18,
+		py = 18,
+		path = "ui_assets_original_opt2.png",
+		prefix_config = {key = false},
+	}
+end
+
+
 -- Cards
 SMODS.Atlas{  
     key = atlas_key..'_lc',
