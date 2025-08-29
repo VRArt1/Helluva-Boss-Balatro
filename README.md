@@ -11,7 +11,7 @@ This mod aims to be an overhaul of Balatro adding in content as if it was an off
 * 2 Enhancers <sub>Malverk</sub>
 * 5 Sleeves
 * 16 Quips <sub>Toggleable</sub>
-* 8 **Swears**<sub>Fuck</sub>
+* 8 **Swears** <sub>Fuck</sub>
 
 ## Usage
 Download the mod along with the below dependencies and place within the Balatro mods folder. Within the Malverk menu enable the `Helluva Boss` texture pack. Use the config within the mod menu to enable and disable options and restart to apply.
