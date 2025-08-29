@@ -145,18 +145,24 @@ AltTexture({
 	original_sheet = true
 })
 
+AltTexture({
+    key = 'sealHELLUVA',
+    set = 'Seal',
+    path = 'helluvaenhancers.png',
+})
+
 TexturePack {
     key = 'cards',
     textures = {
-        "hbp_enhancersHELLUVA","hbp_jokersHELLUVA","hbp_tarotsHELLUVA",
+        "hbp_enhancersHELLUVA","hbp_jokersHELLUVA","hbp_tarotsHELLUVA","hbp_sealHELLUVA"
     },
         loc_txt = {
         name = "Helluva Boss",
         text = {
             "Helluva Boss",
             "playing card backs,",
-	    "jokers, enhancers",
-	    "and tarots."
+	    "jokers, enhancers,",
+	    "seals and tarots."
         }
     }
 }
