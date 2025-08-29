@@ -39,6 +39,18 @@ SMODS.Atlas:take_ownership('casl_sleeve_atlas',
 )
 SMODS.Atlases['casl_sleeve_atlas'].mod = SMODS.current_mod
 
+-- Logo
+if helluva_config.helluvalogo then
+SMODS.Atlas{
+    key = 'balatro',
+    px = 333,
+    py = 216,
+    path = "balatro.png",
+    prefix_config = {key = false},
+}
+else
+end
+
 -- Cards
 SMODS.Atlas{  
     key = atlas_key..'_lc',

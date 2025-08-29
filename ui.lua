@@ -63,6 +63,23 @@ SMODS.current_mod.config_tab = function()
 		},
 		{
 			n = G.UIT.R,
+			config = { align = 'cl', tooltip = {text = {"Changes main menu logo."}},},
+			nodes = {
+				{
+					n = G.UIT.C,
+					-- config = { align = 'cm'},
+					nodes = {
+					create_toggle {
+						label = localize('helluvacustomlogo'),
+						ref_table = helluva_config,
+						ref_value = 'helluvalogo'
+					},
+				  },
+				},
+			},
+		},
+		{
+			n = G.UIT.R,
 			config = { tooltip = {text = {"Adds custom quips."}},},
 			nodes = {
 			  {
