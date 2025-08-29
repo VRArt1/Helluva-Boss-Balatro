@@ -348,7 +348,7 @@ return {
 			helluvayesrestart = "Restart Required",
 			helluvacustomsuits = "Custom Suits",
 			helluva_quips = "Quips",
-			helluvacustomlogo = "Logos",
+			helluvacustomlogo = "Logo",
 
 			-- Credits
 			
