@@ -9,6 +9,7 @@ This mod aims to be an overhaul of Balatro adding in content as if it was an off
 * Custom UI Image <sub>Toggleable</sub>
 * 5 Card Backs <sub>Malverk</sub>
 * 2 Enhancers <sub>Malverk</sub>
+* 4 Sleeves <sub>Malverk</sub>
 * 5 Sleeves
 * 16 Quips <sub>Toggleable</sub>
 * 8 **Swears** <sub>Fuck</sub>
@@ -40,6 +41,7 @@ Addition of custom tarot names and descriptions.
 Addition of placeholder blank tarots for the remaining characters.
 Addition of sleeves.
 Addition of custom ui image for suits.
+Addition of seals.
 -------------------------------- 1.6.0 --------------------------------
 Adjusted Sallie May and Striker tarot cards to match the others.
 Adjusted tarot character selections to better match abilities.
