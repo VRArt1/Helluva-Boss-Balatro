@@ -40,6 +40,7 @@ If you like this mod and want to support the development of it and other mods co
 -------------------------------- 1.8.0 --------------------------------
 Added json.
 Added config and credits tabs.
+Added Malverk config.
 Adjusted Stolas and Barbie tarot choices to properly match suits.
 Addition of logo (toggleable).
 Addition of 16 Jimbo quips (toggleable).
