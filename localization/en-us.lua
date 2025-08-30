@@ -10,6 +10,12 @@ end
 
 return {
 	descriptions = {
+		-- alt_texture={
+			-- hbp_enhancersHELLUVA = {'Test'},
+			-- hbp_jokersHELLUVA = {'Test2'},
+			-- hbp_tarotsHELLUVA = {'Test3'},
+			-- hbp_sealHELLUVA = {'Seals'},
+		-- },		
 		Back={
             b_checkered={
                 name="Checkered Deck",
@@ -409,7 +415,7 @@ return {
 			hbp_stolasloss = {'You, you\'re... you\'re a- A CUNT!'}, -- Cynder
 			hbp_strikerloss = {'Don\'t worry little one, you never stood a chance.'}, -- Mian
 			hbp_verosikaloss = {''},
-			hbp_vortexloss = {'Well, guess it\'s time to bounce.'}, -- Mian
+			hbp_vortexloss = {'Well, guess it\'s time to bounce.'}, -- Mian			
 		}
 	}
 }

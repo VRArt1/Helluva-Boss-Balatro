@@ -23,7 +23,6 @@ Verosika = 'c_lovers'
 Vortex = 'c_temperance'
 
 -- Wins
-
 -- SMODS.JimboQuip{ key = 'andrealphuswin',
     -- type = 'win',
 	-- extra = { center = Andrealphus, particle_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK }, materialize_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK} }, sound = 'voice11'}
@@ -91,8 +90,8 @@ SMODS.JimboQuip{ key = 'strikerwin',
     -- type = 'win',
 	-- extra = { center = Vortex, particle_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK }, materialize_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK} }, sound = 'voice11'}
 
--- Losses
 
+-- Losses
 -- SMODS.JimboQuip{ key = 'andrealphusloss',
     -- type = 'loss',
 	-- extra = { center = Andrealphus, particle_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK }, materialize_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK} }, sound = 'voice11'}

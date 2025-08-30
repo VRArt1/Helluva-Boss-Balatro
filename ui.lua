@@ -1,5 +1,4 @@
 -- Config Tab
-
 SMODS.current_mod.config_tab = function()
   return {
     n = G.UIT.ROOT,
@@ -24,7 +23,6 @@ SMODS.current_mod.config_tab = function()
 				-- }
 			-- },
 		-- },
-		
 		{
 			n = G.UIT.R,
 			config = {
@@ -43,7 +41,6 @@ SMODS.current_mod.config_tab = function()
 				},
 			},
 		},
-		
 		{
 			n = G.UIT.R,
 			config = { align = 'cl', tooltip = {text = {"Changes suit names and deck UI images.","Clubs = Moons, Diamonds = Mammons, Spades = Crowns."}},},
@@ -56,8 +53,8 @@ SMODS.current_mod.config_tab = function()
 						label = localize('helluvacustomsuits'),
 						ref_table = helluva_config,
 						ref_value = 'helluvacustomsuits'
+						},
 					},
-				  },
 				},
 			},
 		},
@@ -73,8 +70,8 @@ SMODS.current_mod.config_tab = function()
 						label = localize('helluvacustomlogo'),
 						ref_table = helluva_config,
 						ref_value = 'helluvalogo'
+						},
 					},
-				  },
 				},
 			},
 		},
@@ -82,16 +79,16 @@ SMODS.current_mod.config_tab = function()
 			n = G.UIT.R,
 			config = { tooltip = {text = {"Adds custom quips."}},},
 			nodes = {
-			  {
-				n = G.UIT.C,
-				nodes = {
-				  create_toggle {
-					label = localize('helluva_quips'),
-					ref_table = helluva_config,
-					ref_value = 'helluvaquips'
-				  },
+				{
+					n = G.UIT.C,
+					nodes = {
+					  create_toggle {
+						label = localize('helluva_quips'),
+						ref_table = helluva_config,
+						ref_value = 'helluvaquips'
+						},
+					},
 				},
-			  },
 			}
 		},
 		
@@ -100,7 +97,6 @@ SMODS.current_mod.config_tab = function()
 end
 
 -- Credits Tab
-
 SMODS.current_mod.extra_tabs = function()
   local scale = 0.75
   return {
@@ -114,162 +110,159 @@ SMODS.current_mod.extra_tabs = function()
           colour = G.C.CLEAR,
         },
         nodes = {
-          {
-            n = G.UIT.R,
-            config = {
-              padding = 0,
-              align = "cm"
+			{
+				n = G.UIT.R,
+				config = {
+				  padding = 0,
+				  align = "cm"
+				},
+				nodes = {
+					{
+						n = G.UIT.T,
+						config = {
+						  text = localize("helluvacredits_thanks"),
+						  shadow = true,
+						  scale = scale * 0.8,
+						  colour = G.C.UI.TEXT_LIGHT
+						}
+					}
+				}
+			},
+			{
+				n = G.UIT.R,
+				config = {
+				  padding = 0,
+				  align = "cm"
             },
             nodes = {
-              {
-                n = G.UIT.T,
-                config = {
-                  text = localize("helluvacredits_thanks"),
-                  shadow = true,
-                  scale = scale * 0.8,
-                  colour = G.C.UI.TEXT_LIGHT
-                }
-              }
+				{
+					n = G.UIT.T,
+					config = {
+					  text = localize("helluvacredits_lead"),
+					  shadow = true,
+					  scale = scale * 0.8,
+					  colour = G.C.UI.TEXT_LIGHT
+					}
+				},
+				{
+					n = G.UIT.T,
+					config = {
+					  text = "V--R",
+					  shadow = true,
+					  scale = scale * 0.8,
+					  colour = HEX("d80007")
+					}
+				}
             }
           },
-          {
-            n = G.UIT.R,
-            config = {
-              padding = 0,
-              align = "cm"
-            },
-            nodes = {
-              {
-                n = G.UIT.T,
-                config = {
-                  text = localize("helluvacredits_lead"),
-                  shadow = true,
-                  scale = scale * 0.8,
-                  colour = G.C.UI.TEXT_LIGHT
-                }
-              },
-              {
-                n = G.UIT.T,
-                config = {
-                  text = "V--R",
-                  shadow = true,
-                  scale = scale * 0.8,
-                  colour = HEX("d80007")
-                }
-              }
-            }
-          },
-          {
-            n = G.UIT.R,
-            config = {
-              padding = 0,
-              align = "cm"
-            },
-            nodes = {
-              {
-                n = G.UIT.T,
-                config = {
-                  text = localize("helluvacredits_card_artist"),
-                  shadow = true,
-                  scale = scale * 0.8,
-                  colour = G.C.UI.TEXT_LIGHT
-                }
-              },
-              {
-                n = G.UIT.T,
-                config = {
-                  text = "GasuGuma",
-                  shadow = true,
-                  scale = scale * 0.8,
-                  colour = HEX("d80007")
-                }
-              }
-            },
-          },
-		  {
-            n = G.UIT.R,
-            config = {
-              padding = 0,
-              align = "cm"
-            },
-            nodes = {
-              {
-                n = G.UIT.T,
-                config = {
-                  text = localize("helluvacredits_metal_card_artist"),
-                  shadow = true,
-                  scale = scale * 0.8,
-                  colour = G.C.UI.TEXT_LIGHT
-                }
-              },
-              {
-                n = G.UIT.T,
-                config = {
-                  text = "Par0lllel",
-                  shadow = true,
-                  scale = scale * 0.8,
-                  colour = HEX("f5d985")
-                }
-              }
-            },
-          },
-		            {
-            n = G.UIT.R,
-            config = {
-              padding = 0,
-              align = "cm"
-            },
-            nodes = {
-              {
-                n = G.UIT.T,
-                config = {
-                  text = localize("helluvacredits_config_coding"),
-                  shadow = true,
-                  scale = scale * 0.8,
-                  colour = G.C.UI.TEXT_LIGHT
-                }
-              },
-              {
-                n = G.UIT.T,
-                config = {
-                  text = "RattlingSnow353",
-                  shadow = true,
-                  scale = scale * 0.8,
-                  colour = HEX("d80007")
-                }
-              }
-            },
-          },
-		  
-          {
-            n = G.UIT.R,
-            config = {
-              padding = 0,
-              align = "cm"
-            },
-            nodes = {
-              {
-                n = G.UIT.T,
-                config = {
-                  text = localize("helluvacredits_joker_logic"),
-                  shadow = true,
-                  scale = scale * 0.8,
-                  colour = G.C.UI.TEXT_LIGHT
-                }
-              },
-              {
-                n = G.UIT.T,
-                config = {
-                  text = "factwixard",
-                  shadow = true,
-                  scale = scale * 0.8,
-                  colour = HEX("d80007")
-                }
-              }
-            },
-          },
-		  
-		            -- {
+			{
+				n = G.UIT.R,
+				config = {
+				  padding = 0,
+				  align = "cm"
+				},
+				nodes = {
+					{
+						n = G.UIT.T,
+						config = {
+						  text = localize("helluvacredits_card_artist"),
+						  shadow = true,
+						  scale = scale * 0.8,
+						  colour = G.C.UI.TEXT_LIGHT
+						}
+					},
+					{
+						n = G.UIT.T,
+						config = {
+						  text = "GasuGuma",
+						  shadow = true,
+						  scale = scale * 0.8,
+						  colour = HEX("d80007")
+						}
+					}
+				},
+			},
+			{
+				n = G.UIT.R,
+				config = {
+				  padding = 0,
+				  align = "cm"
+				},
+				nodes = {
+					{
+						n = G.UIT.T,
+						config = {
+						  text = localize("helluvacredits_metal_card_artist"),
+						  shadow = true,
+						  scale = scale * 0.8,
+						  colour = G.C.UI.TEXT_LIGHT
+						}
+					},
+					{
+						n = G.UIT.T,
+						config = {
+						  text = "Par0lllel",
+						  shadow = true,
+						  scale = scale * 0.8,
+						  colour = HEX("f5d985")
+						}
+					}
+				},
+			},
+			{
+				n = G.UIT.R,
+				config = {
+					padding = 0,
+					align = "cm"
+				},
+				nodes = {
+					{
+						n = G.UIT.T,
+						config = {
+						  text = localize("helluvacredits_config_coding"),
+						  shadow = true,
+						  scale = scale * 0.8,
+						  colour = G.C.UI.TEXT_LIGHT
+						}
+					},
+					{
+						n = G.UIT.T,
+						config = {
+						  text = "RattlingSnow353",
+						  shadow = true,
+						  scale = scale * 0.8,
+						  colour = HEX("d80007")
+						}
+					},
+				},
+				{
+					n = G.UIT.R,
+					config = {
+					  padding = 0,
+					  align = "cm"
+					},
+					nodes = {
+						{
+							n = G.UIT.T,
+							config = {
+							  text = localize("helluvacredits_joker_logic"),
+							  shadow = true,
+							  scale = scale * 0.8,
+							  colour = G.C.UI.TEXT_LIGHT
+							}
+						},
+						{
+							n = G.UIT.T,
+							config = {
+							  text = "factwixard",
+							  shadow = true,
+							  scale = scale * 0.8,
+							  colour = HEX("d80007")
+							}
+						}
+					},
+				},
+		    -- {
             -- n = G.UIT.R,
             -- config = {
               -- padding = 0,
@@ -295,133 +288,131 @@ SMODS.current_mod.extra_tabs = function()
                 -- }
               -- }
             -- },
-          -- },
-		  {
-            n = G.UIT.R,
-            config = {
-              padding = 0,
-              align = "cm"
-            },
-            nodes = {
-              {
-                n = G.UIT.T,
-                config = {
-                  text = localize("helluvacredits_quippers"),
-                  shadow = true,
-                  scale = scale * 0.8,
-                  colour = G.C.UI.TEXT_LIGHT
-                }
-              },
-			 {
-                n = G.UIT.T,
-                config = {
-                  text = "Cynder",
-                  shadow = true,
-                  scale = scale * 0.8,
-                  colour = HEX("8842AE"),
-				  juice = true,
-				  button = "cynderaaa",
-				  tooltip = {text = {"Click Me"}},
-				  -- outline = 1,
-				  -- outline_colour = HEX("d80007")
-                }
-              },
-              {
-                n = G.UIT.T,
-                config = {
-                  text = " & Mian",
-                  shadow = true,
-                  scale = scale * 0.8,
-                  colour = HEX("d80007")
-                }
-              }
-            }
           },
-          {
-            n = G.UIT.R,
-            config = {
-              padding = 0,
-              align = "cm"
-            },
-            nodes = {
-              {
-                n = G.UIT.T,
-                config = {
-                  text = localize("helluvacredits_special_thanks"),
-                  shadow = true,
-                  scale = scale * 0.8,
-                  colour = G.C.UI.TEXT_LIGHT
-                }
-              },
-              {
-                n = G.UIT.T,
-                config = {
-                  text = "Larswijn & Larz",
-                  shadow = true,
-                  scale = scale * 0.8,
-                  colour = HEX("d80007")
-                }
-              }
-            }
-          },
-		            {
-            n = G.UIT.R,
-            config = {
-              padding = 0,
-              align = "cm"
-            },
-            nodes = {
-              {
-                n = G.UIT.T,
-                config = {
-                  text = "",
-                  shadow = true,
-                  scale = scale * 0.8,
-                  colour = G.C.UI.TEXT_LIGHT
-                }
-              },
-              {
-                n = G.UIT.T,
-                config = {
-                  text = "...and you! Fuck you!",
-                  shadow = true,
-                  scale = scale * 0.8,
-                  colour = HEX("d80007")
-                }
-              }
-            }
-          },
-		  {
-            n = G.UIT.R, config = { padding = 0, align = "cm", -- colour = G.C.BLUE 
+			{
+				n = G.UIT.R,
+				config = {
+					padding = 0,
+					align = "cm"
+				},
+				nodes = {
+					{
+						n = G.UIT.T,
+						config = {
+							text = localize("helluvacredits_quippers"),
+							shadow = true,
+							scale = scale * 0.8,
+							colour = G.C.UI.TEXT_LIGHT
+						}
+					},
+					{
+						n = G.UIT.T,
+						config = {
+							text = "Cynder",
+							shadow = true,
+							scale = scale * 0.8,
+							colour = HEX("8842AE"),
+							juice = true,
+							button = "cynderaaa",
+							tooltip = {text = {"Click Me"}},
+						}
+					},
+					{
+						n = G.UIT.T,
+						config = {
+							text = " & Mian",
+							shadow = true,
+							scale = scale * 0.8,
+							colour = HEX("d80007")
+						}
+					}
+				}
 			},
-			nodes = {
-				  {
-					n = G.UIT.C, config = { padding = 0.2, align = "cl", -- colour = G.C.RED 
+			{
+				n = G.UIT.R,
+				config = {
+					padding = 0,
+					align = "cm"
+            },
+            nodes = {
+				{
+					n = G.UIT.T,
+					config = {
+						text = localize("helluvacredits_special_thanks"),
+						shadow = true,
+						scale = scale * 0.8,
+						colour = G.C.UI.TEXT_LIGHT
+					}
+				},
+				{
+					n = G.UIT.T,
+					config = {
+						text = "Larswijn & Larz",
+						shadow = true,
+						scale = scale * 0.8,
+						colour = HEX("d80007")
+					}
+				}
+            }
+			},
+		    {
+				n = G.UIT.R,
+				config = {
+				  padding = 0,
+				  align = "cm"
+				},
+				nodes = {
+					{
+						n = G.UIT.T,
+						config = {
+						  text = "",
+						  shadow = true,
+						  scale = scale * 0.8,
+						  colour = G.C.UI.TEXT_LIGHT
+						}
 					},
-					nodes = {
-					  UIBox_button({
-						-- minw = 3.85,
-						colour = HEX("d80007"),
-						button = "vrgithub",
-						label = {"Github"}
-					  }),
+					{
+						n = G.UIT.T,
+						config = {
+							text = "...and you! Fuck you!",
+							shadow = true,
+							scale = scale * 0.8,
+							colour = HEX("d80007")
+						}
+					}
+				}
+			},
+			{
+				n = G.UIT.R, config = { padding = 0, align = "cm", -- colour = G.C.BLUE 
+				},
+				nodes = {
+					{
+						n = G.UIT.C, config = { padding = 0.2, align = "cl", -- colour = G.C.RED 
+						},
+						nodes = {
+							UIBox_button({
+							-- minw = 3.85,
+							colour = HEX("d80007"),
+							button = "vrgithub",
+							label = {"Github"}
+							}),
+						},
 					},
-				  },
-				  {
-					n = G.UIT.C, config = { padding = 0.2, align = "cr", -- colour = G.C.YELLOW
+					{
+						n = G.UIT.C, config = { padding = 0.2, align = "cr", -- colour = G.C.YELLOW
+						},
+						nodes = {
+						  UIBox_button({
+							-- minw = 3.85,
+							colour = HEX("f5d985"),
+							button = "vrdonate",
+							label = {"Donate"}
+							})
+						},
 					},
-					nodes = {
-					  UIBox_button({
-						-- minw = 3.85,
-						colour = HEX("f5d985"),
-						button = "vrdonate",
-						label = {"Donate"}
-					  })
-					},
-				  },
+				},
 			},
 		},
-        },
       }
     end
   }

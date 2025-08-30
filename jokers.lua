@@ -1,3 +1,4 @@
+-- I.M.P.
 SMODS.Joker {
 	key = 'imp',
 	blueprint_compat = true,
@@ -24,6 +25,7 @@ SMODS.Joker {
 	end
 }
 
+-- Stolhorse
 SMODS.Joker {
 	key = 'horse_stolas',
 	blueprint_compat = true,
