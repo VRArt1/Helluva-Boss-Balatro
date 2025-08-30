@@ -22,7 +22,7 @@ AltTexture({
     set = 'Joker',
     path = 'helluvajokers.png',
 	loc_txt = { name = 'Helluva Jokers',},
-	keys = {'j_joker', 'j_half', 'j_misprint'},
+	keys = {'j_joker', 'j_half', 'j_misprint', 'j_stencil'},
 	original_sheet = true
 })
 AltTexture({
