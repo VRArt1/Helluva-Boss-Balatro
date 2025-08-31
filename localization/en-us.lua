@@ -348,8 +348,9 @@ return {
 			helluvanorestart = "Restart Not Required",
 			helluvayesrestart = "Restart Required",
 			helluvacustomsuits = "Custom Suits",
-			helluva_quips = "Quips",
-			helluvacustomlogo = "Logo",
+			helluva_quips = "Add Quips",
+			helluvacustomlogo = "Replace Logo",
+			helluvacustomui = "Custom UI",
 
 			-- Credits
 			

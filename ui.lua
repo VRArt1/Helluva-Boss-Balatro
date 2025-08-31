@@ -2,7 +2,7 @@
 SMODS.current_mod.config_tab = function()
   return {
     n = G.UIT.ROOT,
-    config = { align = 'cm', padding = 0.05, emboss = 0.05, r = 0.1, colour = G.C.BLACK },
+    config = { mxw = 4, align = 'cm', padding = 0.05, emboss = 0.05, r = 0.1, colour = G.C.BLACK },
     nodes = {
 	
 		-- {
@@ -52,6 +52,7 @@ SMODS.current_mod.config_tab = function()
 					n = G.UIT.C, config = { padding = 0.1, emboss = 0.5, align = "cl", -- colour = G.C.RED 
 					},
 					nodes = {
+						-- Logo
 						{
 							n = G.UIT.R,
 							config = { align = 'cl', tooltip = {text = {"Changes main menu logo."}},},
@@ -69,6 +70,7 @@ SMODS.current_mod.config_tab = function()
 								},
 							},
 						},
+						-- Quips
 						{
 							n = G.UIT.R,
 							config = { tooltip = {text = {"Adds custom quips."}},},
@@ -85,69 +87,40 @@ SMODS.current_mod.config_tab = function()
 								},
 							}
 						},
-					},
-				},
-				-- COLUMN DIVIDER
-				{
-					n = G.UIT.C, config = { w= 1, emboss = 0.5, padding = 0.05, r = 0.1, align = "cm", colour = G.C.WHITE
-					},
-				},
-				-- COLUMN B
-				{
-					n = G.UIT.C, config = { padding = 0.1, emboss = 0.5, align = "cm", -- colour = G.C.YELLOW
-					},
-					nodes = {
+						-- Custom UI
 						{
 							n = G.UIT.R,
-							config = { align = 'cm',}, -- tooltip = {text = {"Changes suit names and deck UI images.","Clubs = Moons, Diamonds = Mammons, Spades = Crowns."}}, -- colour = G.C.GREEN
-							-- },
+							config = { tooltip = {text = {"Changes deck menu UI."}},},
 							nodes = {
-								create_option_cycle({
-									scale = 1, 
-									w = 4,
-									label = "UI Options", 
-									-- current_option = helluva_config.Full, 
-									opt_callback = 'callback_func',
-									options = {"Custom Suits", "Face Only", "Vanilla"},
-									value = 1,
-									ref_table = helluva_config,
-									ref_value = 'hellvacustomsuitui',
-								}),	
-							},
+								{
+									n = G.UIT.C,
+									nodes = {
+									  create_toggle {
+										label = localize('helluvacustomui'),
+										ref_table = helluva_config,
+										ref_value = 'helluvacustomui'
+										},
+									},
+								},
+							}
 						},
-						-- Custom Suits Names Toggle
+						-- Custom Names
 						{
 							n = G.UIT.R,
-							config = { align = 'cm', tooltip = {text = {"Changes suit names.","Clubs = Moons, Diamonds = Mammons, Spades = Crowns."}}, -- colour = G.C.GREEN
-							},
+							config = { tooltip = {text = {"Changes suit names.","Clubs = Moons, Diamonds = Mammons, Spades = Crowns."}},},
 							nodes = {
-								create_toggle {
-										label = "Custom Suits Names",
+								{
+									n = G.UIT.C,
+									nodes = {
+									  create_toggle {
+										label = localize('helluvacustomsuits'),
 										ref_table = helluva_config,
 										ref_value = 'helluvacustomsuits'
+										},
+									},
 								},
-							},
+							}
 						},
-						-- Custom Deck UI Menu
-
-						-- Explanation Row
-						-- {
-							-- n = G.UIT.R,
-							-- config = { padding = 0, emboss = 0, align = 'cm', tooltip = {text = {"Changes suit names and deck UI images.","Clubs = Moons, Diamonds = Mammons, Spades = Crowns."}}, -- colour = G.C.GREEN
-							-- },
-							-- nodes = {
-								-- {
-									-- n = G.UIT.T,
-									-- config = {
-										-- padding = 0.05,
-										-- text = "Explanation goes here.",
-										-- shadow = true,
-										-- scale = 0.75 * 0.8 * 0.75,
-										-- colour = HEX("FFFFFF")
-									-- }
-								-- }
-							-- },
-						-- },
 					},
 				},
 			},

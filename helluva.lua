@@ -68,39 +68,40 @@ else
 end
 
 -- UI Suits
-if helluva_config.hellvacustomsuitui == 1 then -- Full
-	SMODS.Atlas{
-		key = 'ui_1',
-		px = 18,
-		py = 18,
-		path = "ui_assets.png",
-		prefix_config = {key = false},
-	}
-	SMODS.Atlas{
-		key = 'ui_2',
-		px = 18,
-		py = 18,
-		path = "ui_assets_opt2.png",
-		prefix_config = {key = false},
-	}
-else
-end
 
-if helluva_config.hellvacustomsuitui == 2 then -- Face
-	SMODS.Atlas{
-		key = 'ui_1',
-		px = 18,
-		py = 18,
-		path = "ui_assets_original.png",
-		prefix_config = {key = false},
-	}
-	SMODS.Atlas{
-		key = 'ui_2',
-		px = 18,
-		py = 18,
-		path = "ui_assets_original_opt2.png",
-		prefix_config = {key = false},
-	}
+if helluva_config.helluvacustomui then -- Check if UI on.
+	if helluva_config.helluvacustomsuits then -- Check if custom names on. Full.
+		SMODS.Atlas{
+			key = 'ui_1',
+			px = 18,
+			py = 18,
+			path = "ui_assets.png",
+			prefix_config = {key = false},
+		}
+		SMODS.Atlas{
+			key = 'ui_2',
+			px = 18,
+			py = 18,
+			path = "ui_assets_opt2.png",
+			prefix_config = {key = false},
+		}
+	else -- Custom names off. Face.
+		SMODS.Atlas{
+			key = 'ui_1',
+			px = 18,
+			py = 18,
+			path = "ui_assets_original.png",
+			prefix_config = {key = false},
+		}
+		SMODS.Atlas{
+			key = 'ui_2',
+			px = 18,
+			py = 18,
+			path = "ui_assets_original_opt2.png",
+			prefix_config = {key = false},
+		}
+	end
+else
 end
 
 -- Deck
