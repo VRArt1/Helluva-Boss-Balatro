@@ -41,57 +41,117 @@ SMODS.current_mod.config_tab = function()
 				},
 			},
 		},
+-- Reset Required Columns
+		-- ROW
 		{
-			n = G.UIT.R,
-			config = { align = 'cl', tooltip = {text = {"Changes suit names and deck UI images.","Clubs = Moons, Diamonds = Mammons, Spades = Crowns."}},},
+			n = G.UIT.R, config = { padding = 0, align = "cm", -- colour = G.C.BLUE 
+			},
 			nodes = {
+				-- COLUMN A
 				{
-					n = G.UIT.C,
-					-- config = { align = 'cm'},
+					n = G.UIT.C, config = { padding = 0.1, emboss = 0.5, align = "cl", -- colour = G.C.RED 
+					},
 					nodes = {
-					create_toggle {
-						label = localize('helluvacustomsuits'),
-						ref_table = helluva_config,
-						ref_value = 'helluvacustomsuits'
+						{
+							n = G.UIT.R,
+							config = { align = 'cl', tooltip = {text = {"Changes main menu logo."}},},
+							nodes = {
+								{
+									n = G.UIT.C,
+									-- config = { align = 'cm'},
+									nodes = {
+									create_toggle {
+										label = localize('helluvacustomlogo'),
+										ref_table = helluva_config,
+										ref_value = 'helluvalogo'
+										},
+									},
+								},
+							},
 						},
+						{
+							n = G.UIT.R,
+							config = { tooltip = {text = {"Adds custom quips."}},},
+							nodes = {
+								{
+									n = G.UIT.C,
+									nodes = {
+									  create_toggle {
+										label = localize('helluva_quips'),
+										ref_table = helluva_config,
+										ref_value = 'helluvaquips'
+										},
+									},
+								},
+							}
+						},
+					},
+				},
+				-- COLUMN DIVIDER
+				{
+					n = G.UIT.C, config = { w= 1, emboss = 0.5, padding = 0.05, r = 0.1, align = "cm", colour = G.C.WHITE
+					},
+				},
+				-- COLUMN B
+				{
+					n = G.UIT.C, config = { padding = 0.1, emboss = 0.5, align = "cm", -- colour = G.C.YELLOW
+					},
+					nodes = {
+						{
+							n = G.UIT.R,
+							config = { align = 'cm',}, -- tooltip = {text = {"Changes suit names and deck UI images.","Clubs = Moons, Diamonds = Mammons, Spades = Crowns."}}, -- colour = G.C.GREEN
+							-- },
+							nodes = {
+								create_option_cycle({
+									scale = 1, 
+									w = 4,
+									label = "UI Options", 
+									-- current_option = helluva_config.Full, 
+									opt_callback = 'callback_func',
+									options = {"Custom Suits", "Face Only", "Vanilla"},
+									value = 1,
+									ref_table = helluva_config,
+									ref_value = 'hellvacustomsuitui',
+								}),	
+							},
+						},
+						-- Custom Suits Names Toggle
+						{
+							n = G.UIT.R,
+							config = { align = 'cm', tooltip = {text = {"Changes suit names.","Clubs = Moons, Diamonds = Mammons, Spades = Crowns."}}, -- colour = G.C.GREEN
+							},
+							nodes = {
+								create_toggle {
+										label = "Custom Suits Names",
+										ref_table = helluva_config,
+										ref_value = 'helluvacustomsuits'
+								},
+							},
+						},
+						-- Custom Deck UI Menu
+
+						-- Explanation Row
+						-- {
+							-- n = G.UIT.R,
+							-- config = { padding = 0, emboss = 0, align = 'cm', tooltip = {text = {"Changes suit names and deck UI images.","Clubs = Moons, Diamonds = Mammons, Spades = Crowns."}}, -- colour = G.C.GREEN
+							-- },
+							-- nodes = {
+								-- {
+									-- n = G.UIT.T,
+									-- config = {
+										-- padding = 0.05,
+										-- text = "Explanation goes here.",
+										-- shadow = true,
+										-- scale = 0.75 * 0.8 * 0.75,
+										-- colour = HEX("FFFFFF")
+									-- }
+								-- }
+							-- },
+						-- },
 					},
 				},
 			},
 		},
-		{
-			n = G.UIT.R,
-			config = { align = 'cl', tooltip = {text = {"Changes main menu logo."}},},
-			nodes = {
-				{
-					n = G.UIT.C,
-					-- config = { align = 'cm'},
-					nodes = {
-					create_toggle {
-						label = localize('helluvacustomlogo'),
-						ref_table = helluva_config,
-						ref_value = 'helluvalogo'
-						},
-					},
-				},
-			},
-		},
-		{
-			n = G.UIT.R,
-			config = { tooltip = {text = {"Adds custom quips."}},},
-			nodes = {
-				{
-					n = G.UIT.C,
-					nodes = {
-					  create_toggle {
-						label = localize('helluva_quips'),
-						ref_table = helluva_config,
-						ref_value = 'helluvaquips'
-						},
-					},
-				},
-			}
-		},
-		
     }
   }
 end
@@ -429,4 +489,19 @@ end
 
 function G.FUNCS.cynderaaa(e)
   love.system.openURL("https://cdn.discordapp.com/attachments/502171319777886230/1274889670710525993/aaaaaacynder-ezgif.com-resize.gif?ex=68b24787&is=68b0f607&hm=25820ca6615d28d1ae39adadc9c494cd82ed6bbc1135961d4ce0a2dcd38a4c79&")
+end
+
+G.FUNCS.casl_cycle_options = function(args)
+    -- G.FUNCS.cycle_update from Galdur
+    args = args or {}
+    if args.cycle_config and args.cycle_config.ref_table and args.cycle_config.ref_value then
+        args.cycle_config.ref_table[args.cycle_config.ref_value] = args.to_key
+    end
+end
+
+G.FUNCS.callback_func = function(args)
+  args = args or {}
+  if args.cycle_config and args.cycle_config.ref_table and args.cycle_config.ref_value then
+    args.cycle_config.ref_table[args.cycle_config.ref_value] = args.to_key
+  end
 end

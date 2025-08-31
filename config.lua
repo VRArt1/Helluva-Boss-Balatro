@@ -1,5 +1,6 @@
 return {
   ["helluvalogo"]=true,
   ["helluvaquips"]=true,
-  ["helluvacustomsuits"]=true
+  ["helluvacustomsuits"]=true,
+  ["hellvacustomsuitui"]= 1,
 }

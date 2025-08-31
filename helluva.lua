@@ -68,7 +68,7 @@ else
 end
 
 -- UI Suits
-if helluva_config.helluvacustomsuits then
+if helluva_config.hellvacustomsuitui == 1 then -- Full
 	SMODS.Atlas{
 		key = 'ui_1',
 		px = 18,
@@ -84,6 +84,9 @@ if helluva_config.helluvacustomsuits then
 		prefix_config = {key = false},
 	}
 else
+end
+
+if helluva_config.hellvacustomsuitui == 2 then -- Face
 	SMODS.Atlas{
 		key = 'ui_1',
 		px = 18,
