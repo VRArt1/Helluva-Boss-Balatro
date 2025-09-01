@@ -32,6 +32,26 @@ AltTexture({
     path = 'helluvaenhancers.png',
 })
 AltTexture({
+    key = 'boostersHELLUVAarcana',
+    set = 'Booster',
+    path = 'helluvaboosters.png',
+	loc_txt = { name = 'Helluva Tarot Boosters',},
+	keys = {
+		'p_arcana_normal_1', 'p_arcana_normal_2', 'p_arcana_normal_3', 'p_arcana_normal_4',
+		'p_arcana_jumbo_1','p_arcana_jumbo_2','p_arcana_mega_1', 'p_arcana_mega_2',
+	},
+	original_sheet = true
+})
+AltTexture({
+    key = 'boostersHELLUVAbuffoon',
+    set = 'Booster',
+    path = 'helluvaboosters.png',
+	loc_txt = { name = 'Helluva Jokers Boosters',},
+	keys = { -- 'p_buffon_normal_1', 'p_buffon_normal_2', 'p_buffon_jumbo_1', 'p_buffon_mega_1',
+	},
+	original_sheet = true
+})
+AltTexture({
     key = 'tarotsHELLUVA',
     set = 'Tarot',
     path = 'helluvatarots.png',
@@ -42,11 +62,13 @@ AltTexture({
 	original_sheet = true
 })
 
+
 -- Texture Pack
 TexturePack {
     key = 'hbcards',
     textures = {
-        "hbp_enhancersHELLUVA","hbp_backsHELLUVA","hbp_jokersHELLUVA","hbp_sealHELLUVA","hbp_tarotsHELLUVA"
+        "hbp_enhancersHELLUVA","hbp_boostersHELLUVAarcana", "hbp_boostersHELLUVAbuffoon",
+		"hbp_backsHELLUVA","hbp_jokersHELLUVA","hbp_sealHELLUVA","hbp_tarotsHELLUVA"
     },
         loc_txt = {
         name = "Helluva Boss",
