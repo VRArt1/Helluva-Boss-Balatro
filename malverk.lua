@@ -61,6 +61,13 @@ AltTexture({
 	display_pos = 'c_star',
 	original_sheet = true
 })
+AltTexture({
+    key = 'stakesHELLUVA',
+    set = 'Stake',
+    path = 'helluvachips.png',
+	loc_txt = { name = 'Helluva Stakes',},
+	original_sheet = true
+})
 
 
 -- Texture Pack
@@ -68,7 +75,7 @@ TexturePack {
     key = 'hbcards',
     textures = {
         "hbp_enhancersHELLUVA","hbp_boostersHELLUVAarcana", "hbp_boostersHELLUVAbuffoon",
-		"hbp_backsHELLUVA","hbp_jokersHELLUVA","hbp_sealHELLUVA","hbp_tarotsHELLUVA"
+		"hbp_backsHELLUVA","hbp_jokersHELLUVA","hbp_sealHELLUVA","hbp_tarotsHELLUVA","hbp_stakesHELLUVA"
     },
         loc_txt = {
         name = "Helluva Boss",
