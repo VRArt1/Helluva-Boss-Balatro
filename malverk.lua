@@ -13,7 +13,7 @@ AltTexture({
     set = 'Enhanced',
     path = 'helluvaenhancers.png',
 	loc_txt = { name = 'Helluva Enhancers',},
-	keys = {'m_bonus','m_stone'},
+	keys = {'m_bonus','m_stone','m_mult','m_wild'},
 	display_pos = 'b_red',
 	original_sheet = true
 })

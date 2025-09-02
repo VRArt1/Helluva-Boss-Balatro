@@ -407,7 +407,7 @@ return {
 			hbp_loonaloss = {''},
 			hbp_luciferloss = {''},
 			hbp_mammonloss = {''},
-			hbp_millieloss = {'I love you hon, but for fuck\'s sake!'}, -- Mian
+			hbp_millieloss = {'I love you hon,', 'but for fuck\'s sake!'}, -- Mian
 			hbp_moxxieloss = {''},
 			hbp_octavialoss = {'I think you\'d like this song,', 'it\'s called {C:attention}fuck you{}.'},
 			hbp_salliemayloss = {''},
