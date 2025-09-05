@@ -340,11 +340,19 @@ return {
 			hbp_belphegor_seal={
 				name="Belphegor",
 				text={
-					'{X:red,C:white}X#1#{} Mult',
-					'card is held in hand',
+					'{X:red,C:white}X#1#{} Mult if card',
+					'is {C:attention}held in hand',
 					'{X:red,C:white}+X1{} if in hand',
-					'at end of round',
+					'at {C:attention}end of round',
 					'{C:inactive}(Resets if played)'
+				},
+			},
+			hbp_mammon_seal={
+				name="Mammon",
+				text={
+					'Earn {C:money}$1{} per {C:chips}chips{}',
+					'when discarded',
+					'{C:attention}Destroys card{}'
 				},
 			}
 		}
@@ -379,7 +387,8 @@ return {
 			donate = "Donate",
 		},
 		labels = {
-			hbp_belphegor_seal = 'Helluva Boss'
+			hbp_belphegor_seal = 'Helluva Boss',
+			hbp_mammon_seal = 'Helluva Boss'
 		},
 		quips = {
 		

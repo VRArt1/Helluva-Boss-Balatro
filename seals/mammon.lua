@@ -19,15 +19,6 @@ SMODS.Seal {
         }
     },
     badge_colour = HEX('d80007'),
-   loc_txt = {
-        name = 'Mammon',
-        label = 'Helluva Boss',
-        text = {
-        [1] = 'Earn {C:money}$1{} per {C:chips}chips{}',
-        [2] = 'when discarded',
-        [3] = '{C:attention}Destroys card{}'
-    }
-    },
     atlas = 'helluvaseals',
     unlocked = true,
     discovered = true,
