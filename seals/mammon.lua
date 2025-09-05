@@ -21,7 +21,7 @@ SMODS.Seal {
     badge_colour = HEX('d80007'),
    loc_txt = {
         name = 'Mammon',
-        label = 'Mammon',
+        label = 'Helluva Boss',
         text = {
         [1] = 'Earn {C:money}$1{} per {C:chips}chips{}',
         [2] = 'when discarded',

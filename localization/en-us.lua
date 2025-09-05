@@ -335,6 +335,18 @@ return {
                     "is a {C:attention}single {C:spades}"..SPADENAME.." {C:attention}card{}",
                 },
 			},
+		},
+		Other={
+			hbp_belphegor_seal={
+				name="Belphegor",
+				text={
+					'{X:red,C:white}X#1#{} Mult',
+					'card is held in hand',
+					'{X:red,C:white}+X1{} if in hand',
+					'at end of round',
+					'{C:inactive}(Resets if played)'
+				},
+			}
 		}
 	},
     misc = {
@@ -365,6 +377,9 @@ return {
 			helluvacredits_quippers = "Quips: ",
 			helluvacredits_special_thanks = "Special Thanks: ",
 			donate = "Donate",
+		},
+		labels = {
+			hbp_belphegor_seal = 'Helluva Boss'
 		},
 		quips = {
 		
