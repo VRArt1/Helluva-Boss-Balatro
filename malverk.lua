@@ -21,9 +21,10 @@ AltTexture({
     key = 'jokersHELLUVA',
     set = 'Joker',
     path = 'helluvajokers.png',
-	loc_txt = { name = 'Helluva Jokers',},
-	keys = {'j_joker', 'j_half', 'j_misprint', 'j_stencil'},
-	original_sheet = true
+	-- loc_txt = { name = 'Helluva Jokers',},
+	keys = {'j_joker', 'j_half', 'j_misprint', 'j_stencil','j_smeared','j_faceless','j_steel_joker'},
+	original_sheet = true,
+	localization = true
 })
 AltTexture({
     key = 'sealHELLUVA',

@@ -11,6 +11,42 @@ end
 return {
 	descriptions = {
 		alt_texture = {
+			alt_tex_hbp_jokersHELLUVA = {
+				name="Helluva Jokers",
+				j_faceless={
+                name="Faceless Blitzø",
+				},
+				j_half={
+					name="Half Blitzø",
+				},
+				j_joker={
+					name="Blitzø",
+				},
+				j_steel_joker={
+                name="Steel Blitzø",
+				},
+				j_smeared={
+					name="Smeared Blitzø",
+					text={
+						"{C:hearts}Hearts{} and {C:diamonds}"..DIAMONDNAME.."s",
+						"count as the same suit,",
+						"{C:spades}"..SPADENAME.."s{} and {C:clubs}"..CLUBNAME.."s",
+						"count as the same suit",
+					},
+				},
+				j_stencil={
+					name="Blitzø Stencil",
+					text={
+						"{X:red,C:white} X1 {} Mult for each",
+						"empty {C:attention}Joker{} slot",
+						"{s:0.8}Blitzø Stencil included",
+						"{C:inactive}(Currently {X:red,C:white} X#1# {C:inactive})",
+					},
+				},
+				j_wee={
+                name="Wee Blitzø",
+				},
+			},
 			alt_tex_hbp_tarotsHELLUVA = {
 				name = 'Helluva Tarot Cards',
 				c_chariot={
