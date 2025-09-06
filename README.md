@@ -11,9 +11,10 @@ This mod aims to be an overhaul of Balatro adding in content as if it was an off
 * 2 Enhancers <sub>Malverk</sub>
 * 2 **New** Jokers
 * 2 **New** Seals
-* 2 Jokers <sub>Malverk</sub>
+* 13 Jokers <sub>Malverk</sub>
 * 4 Seals <sub>Malverk</sub>
 * 5 Sleeves
+* Tarots <sub>Malverk</sub>
 * 16 **New** Quips <sub>Toggleable</sub>
 * 8 Swears <sub>**Fuck**</sub>
 
