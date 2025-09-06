@@ -37,6 +37,18 @@ If you like this mod and want to support the development of it and other mods co
 
 ## Changelog
 ```
+-------------------------------- 1.9.0 --------------------------------
+Addition of the following jokers: Misprint & Stencil.
+Changes to config menu to include option to disable custom ui.
+Added config toggle for jokers.
+Adjusted Millie & Striker quips.
+Added Multi & Wild enhancers.
+Addition of arcana boosters.
+Fixed Asmodeus tarot offset.
+Addition of Andrealphus & Glitz & Glam tarot card.
+Added stakes (toggle-able).
+Added Mammon & Belphegor seals (toggle-able).
+Redid how localization is done on tarot cards so that they only show when Malverk texture is applied.
 -------------------------------- 1.8.0 --------------------------------
 Added json.
 Added config and credits tabs.
