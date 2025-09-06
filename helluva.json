@@ -3,7 +3,7 @@
 	"name": "Helluva Balatro",
 	"display_name": "Helluva Boss",
 	"author": ["V--R"],
-	"description": "Helluva Boss overhaul mod. See config for options and don't forget to enable the texture pack through Malverk!",
+	"description": "Helluva Boss overhaul mod. See config for options and don't forget to enable the Malverk texture pack!",
 	"prefix": "hbp",
 	"main_file": "helluva.lua",
 	"priority": 0,

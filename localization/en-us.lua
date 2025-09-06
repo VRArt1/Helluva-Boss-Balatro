@@ -10,12 +10,189 @@ end
 
 return {
 	descriptions = {
-		-- alt_texture={
-			-- hbp_enhancersHELLUVA = {'Test'},
-			-- hbp_jokersHELLUVA = {'Test2'},
-			-- hbp_tarotsHELLUVA = {'Test3'},
-			-- hbp_sealHELLUVA = {'Seals'},
-		-- },		
+		alt_texture = {
+			alt_tex_hbp_tarotsHELLUVA = {
+				name = 'Helluva Tarot Cards',
+				c_chariot={
+					name="Stella",
+					text={
+						"This {C:attention}bitch{} enhances",
+						"{C:attention}#1#{} selected card",
+						"into a {C:attention}#2#",
+					},
+				},
+				c_death={
+					name="Glitz & Glam",
+					text={
+						"Select {C:attention}#1#{} cards,",
+						"{C:dark_edition}mirror{} the {C:attention}left{} card",
+						"into the {C:attention}right{} card",
+						"{C:inactive}(Drag to rearrange)",
+					},
+				},
+				c_devil={
+					name="Lucifier",
+					text={
+						"Enhances {C:attention}#1#{} selected",
+						"card into a",
+						"{C:attention}#2#",
+					},
+				},
+				c_emperor={
+					name="Moxxie",
+					text={
+						"Creates up to {C:attention}#1#",
+						"random {C:tarot}Tarot{} cards",
+						"{C:inactive}(Must have room)",
+					},
+				},
+				c_empress={
+					name="Millie",
+					text={
+						"Enhances {C:attention}#1#",
+						"selected cards to",
+						"{C:attention}#2#s",
+					},
+				},
+				c_fool={
+					name="Fizzarolli",
+					text={
+						"Creates the last",
+						"{C:tarot}Tarot{} or {C:planet}Planet{} card",
+						"used during this run",
+						"{s:0.8,C:tarot}Fizzarolli{s:0.8} excluded",
+					},
+				},
+				c_hanged_man={
+					name="Striker",
+					text={
+						"Assassinates up to",
+						"{C:attention}#1#{} selected cards",
+					},
+				},
+				c_heirophant={
+					name="Andrealphus",
+					text={
+						"Enhances {C:attention}#1#",
+						"selected cards to",
+						"{C:attention}#2#s",
+					},
+				},
+				c_hermit={
+					name="Mammon",
+					text={
+						"Embezzels money",
+						"{C:inactive}(Max of {C:money}$#1#{C:inactive})",
+					},
+				},
+				c_high_priestess={
+					name="Sallie May",
+					text={
+						"Creates up to {C:attention}#1#",
+						"random {C:planet}Planet{} cards",
+						"{C:inactive}(Must have room)",
+					},
+				},
+				c_judgement={
+					name="Human Loona",
+					text={
+						"Creates a random",
+						"{C:attention}Joker{} card",
+						"{C:inactive}(Must have room)",
+					},
+				},
+				c_justice={
+					name="Satan",
+					text={
+						"Enhances {C:attention}#1#{} selected",
+						"card into a",
+						"{C:attention}#2#",
+					},
+				},
+				c_lovers={
+					name="Verosika",
+					text={
+						"Sluts up {C:attention}#1#{}",
+						"selected card",
+						"into a {C:attention}#2#",
+					},
+				},
+				c_magician={
+					name="Octavia",
+					text={
+						"Enhances {C:attention}#1#{}",
+						"selected cards to",
+						"{C:attention}#2#s",
+					},
+				},
+				c_moon={
+					name="Barbie",
+					text={
+						"Converts up to",
+						"{C:attention}#1#{} selected cards",
+						"to {V:1}#2#{}",
+					},
+				},
+				c_star={
+					name="Blitzo",
+					text={
+						"Converts up to",
+						"{C:attention}#1#{} selected cards",
+						"to {V:1}#2#{}",
+					},
+				},
+				c_strength={
+					name="Loona",
+					text={
+						"Increases rank of",
+						"up to {C:attention}#1#{} selected",
+						"cards by {C:attention}1",
+					},
+				},
+				c_sun={
+					name="Asmodeus",
+					text={
+						"Converts up to",
+						"{C:attention}#1#{} selected cards",
+						"to {V:1}#2#{}",
+					},
+				},
+				c_temperance={
+					name="Vortex",
+					text={
+						"Gives the total sell",
+						"value of all current",
+						"Jokers {C:inactive}(Max of {C:money}$#1#{C:inactive})",
+						"{C:inactive}(Currently {C:money}$#2#{C:inactive})",
+					},
+				},
+				c_tower={
+					name="Crimson",
+					text={
+						"Enhances {C:attention}#1#{} selected",
+						"card into a",
+						"{C:attention}#2#",
+					},
+				},
+				c_wheel_of_fortune={
+					name="Beelzebub",
+					text={
+						"{C:green}#1# in #2#{} chance to add",
+						"{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, or",
+						"{C:dark_edition}Polychrome{} edition",
+						"to a random {C:attention}Joker",
+					},
+				},
+				c_world={
+					name="Stolas",
+					text={
+						"Converts up to",
+						"{C:attention}#1#{} selected cards",
+						"to {V:1}#2#{}",
+					},
+				},
+			},
+		},	
 		Back={
             b_checkered={
                 name="Checkered Deck",
@@ -57,186 +234,16 @@ return {
             },
         },
 
-		Tarot={
-            c_chariot={
-                name="Stella",
-                text={
-                    "This {C:attention}bitch{} enhances",
-                    "{C:attention}#1#{} selected card",
-                    "into a {C:attention}#2#",
-                },
-            },
-            c_death={
-                name="Glitz & Glam",
-                text={
-                    "Select {C:attention}#1#{} cards,",
-                    "{C:dark_edition}mirror{} the {C:attention}left{} card",
-                    "into the {C:attention}right{} card",
-                    "{C:inactive}(Drag to rearrange)",
-                },
-            },
-            c_devil={
-                name="Lucifier",
-                text={
-                    "Enhances {C:attention}#1#{} selected",
-                    "card into a",
-                    "{C:attention}#2#",
-                },
-            },
-            c_emperor={
-                name="Moxxie",
-                text={
-                    "Creates up to {C:attention}#1#",
-                    "random {C:tarot}Tarot{} cards",
-                    "{C:inactive}(Must have room)",
-                },
-            },
-            c_empress={
-                name="Millie",
-                text={
-                    "Enhances {C:attention}#1#",
-                    "selected cards to",
-                    "{C:attention}#2#s",
-                },
-            },
-            c_fool={
-                name="Fizzarolli",
-                text={
-                    "Creates the last",
-                    "{C:tarot}Tarot{} or {C:planet}Planet{} card",
-                    "used during this run",
-                    "{s:0.8,C:tarot}Fizzarolli{s:0.8} excluded",
-                },
-            },
-            c_hanged_man={
-                name="Striker",
-                text={
-                    "Assassinates up to",
-                    "{C:attention}#1#{} selected cards",
-                },
-            },
-            c_heirophant={
-                name="Andrealphus",
-                text={
-                    "Enhances {C:attention}#1#",
-                    "selected cards to",
-                    "{C:attention}#2#s",
-                },
-            },
-            c_hermit={
-                name="Mammon",
-                text={
-                    "Embezzels money",
-                    "{C:inactive}(Max of {C:money}$#1#{C:inactive})",
-                },
-            },
-            c_high_priestess={
-                name="Sallie May",
-                text={
-                    "Creates up to {C:attention}#1#",
-                    "random {C:planet}Planet{} cards",
-                    "{C:inactive}(Must have room)",
-                },
-            },
-            c_judgement={
-                name="Human Loona",
-                text={
-                    "Creates a random",
-                    "{C:attention}Joker{} card",
-                    "{C:inactive}(Must have room)",
-                },
-            },
-            c_justice={
-                name="Satan",
-                text={
-                    "Enhances {C:attention}#1#{} selected",
-                    "card into a",
-                    "{C:attention}#2#",
-                },
-            },
-            c_lovers={
-                name="Verosika",
-                text={
-                    "Sluts up {C:attention}#1#{}",
-                    "selected card",
-                    "into a {C:attention}#2#",
-                },
-            },
-            c_magician={
-                name="Octavia",
-                text={
-                    "Enhances {C:attention}#1#{}",
-                    "selected cards to",
-                    "{C:attention}#2#s",
-                },
-            },
-            c_moon={
-                name="Barbie",
-                text={
-                    "Converts up to",
-                    "{C:attention}#1#{} selected cards",
-                    "to {V:1}#2#{}",
-                },
-            },
-            c_star={
-                name="Blitzo",
-                text={
-                    "Converts up to",
-                    "{C:attention}#1#{} selected cards",
-                    "to {V:1}#2#{}",
-                },
-            },
-            c_strength={
-                name="Loona",
-                text={
-                    "Increases rank of",
-                    "up to {C:attention}#1#{} selected",
-                    "cards by {C:attention}1",
-                },
-            },
-            c_sun={
-                name="Asmodeus",
-                text={
-                    "Converts up to",
-                    "{C:attention}#1#{} selected cards",
-                    "to {V:1}#2#{}",
-                },
-            },
-            c_temperance={
-                name="Vortex",
-                text={
-                    "Gives the total sell",
-                    "value of all current",
-                    "Jokers {C:inactive}(Max of {C:money}$#1#{C:inactive})",
-                    "{C:inactive}(Currently {C:money}$#2#{C:inactive})",
-                },
-            },
-            c_tower={
-                name="Crimson",
-                text={
-                    "Enhances {C:attention}#1#{} selected",
-                    "card into a",
-                    "{C:attention}#2#",
-                },
-            },
-            c_wheel_of_fortune={
-                name="Beelzebub",
-                text={
-                    "{C:green}#1# in #2#{} chance to add",
-                    "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, or",
-                    "{C:dark_edition}Polychrome{} edition",
-                    "to a random {C:attention}Joker",
-                },
-            },
-            c_world={
-                name="Stolas",
-                text={
-                    "Converts up to",
-                    "{C:attention}#1#{} selected cards",
-                    "to {V:1}#2#{}",
-                },
-            },
-        },
+		-- Tarot={
+            -- c_chariot={
+                -- name="Stella",
+                -- text={
+                    -- "This {C:attention}bitch{} enhances",
+                    -- "{C:attention}#1#{} selected card",
+                    -- "into a {C:attention}#2#",
+                -- },
+            -- },
+        -- },
 		Joker={
 			j_arrowhead={
                 name="Arrowhead",
