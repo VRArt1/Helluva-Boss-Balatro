@@ -23,7 +23,7 @@ AltTexture({
     path = 'helluvajokers.png',
 	-- loc_txt = { name = 'Helluva Jokers',},
 	keys = {'j_joker', 'j_half', 'j_misprint', 'j_stencil','j_smeared','j_faceless','j_steel_joker','j_wee','j_hit_the_road',
-	'j_greedy_joker','j_lusty_joker','j_wrathful_joker','j_gluttenous_joker',},
+	'j_greedy_joker','j_lusty_joker','j_wrathful_joker','j_gluttenous_joker','j_hologram'},
 	original_sheet = true,
 	localization = true
 })
