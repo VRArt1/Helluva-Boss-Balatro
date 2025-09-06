@@ -16,11 +16,20 @@ return {
 				j_faceless={
                 name="Faceless Blitzø",
 				},
+				j_gluttenous_joker={
+                name="Gluttonous Blitzø",
+				},
+				j_greedy_joker={
+                name="Greedy Blitzø",
+				},
 				j_half={
 					name="Half Blitzø",
 				},
 				j_joker={
 					name="Blitzø",
+				},
+				j_lusty_joker={
+                name="Lusty Blitzø",
 				},
 				j_steel_joker={
                 name="Steel Blitzø",
@@ -45,6 +54,9 @@ return {
 				},
 				j_wee={
                 name="Wee Blitzø",
+				},
+				j_wrathful_joker={
+                name="Wrathful Blitzø",
 				},
 			},
 			alt_tex_hbp_tarotsHELLUVA = {
