@@ -10,6 +10,7 @@ This mod aims to be an overhaul of Balatro adding in content as if it was an off
 * 5 Card Backs <sub>Malverk</sub>
 * 2 Enhancers <sub>Malverk</sub>
 * 2 **New** Jokers
+* 2 **New** Seals
 * 2 Jokers <sub>Malverk</sub>
 * 4 Seals <sub>Malverk</sub>
 * 5 Sleeves
@@ -20,6 +21,11 @@ This mod aims to be an overhaul of Balatro adding in content as if it was an off
 This mod adds the following **2** new jokers.
 * I.M.P. (Uncommon) - Adds **x3 Mult** if played hand is a **Four of a Kind** made up of only **Diamonds/Mammons**.
 * Stolhorse (Rare) - Adds **x6 Mult** if played hand is a single **Crown/Spade** card.
+
+## Seals
+This mod adds the following **2** new seals.
+* Belphegor (Sloth) - Every round a card with this seal is in your hand it adds a xMult when scoring. At the end of the round if you are holding the card the xMult increases. Resets if played.
+* Mammon (Greed) - Earn $1 per chips value of card when discarded. Destroys card.
 
 ## Usage
 Download the mod along with the below dependencies and place within the Balatro mods folder. Within the Malverk menu enable the `Helluva Boss` texture pack. Use the config within the mod menu to enable and disable options and restart to apply.
