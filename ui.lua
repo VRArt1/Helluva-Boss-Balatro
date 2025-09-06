@@ -47,15 +47,80 @@ SMODS.current_mod.config_tab = function()
 			n = G.UIT.R, config = { padding = 0, align = "cm", -- colour = G.C.BLUE 
 			},
 			nodes = {
-				-- COLUMN A
+				-- COLUMN A - Add
 				{
 					n = G.UIT.C, config = { padding = 0.1, emboss = 0.5, align = "cl", -- colour = G.C.RED 
 					},
 					nodes = {
+						
+						-- Jokers
+						{
+							n = G.UIT.R,
+							config = {
+								tooltip = {text = {localize('helluvajokers_tooltip')}},
+							},
+							nodes = {
+								{
+									n = G.UIT.C,
+									nodes = {
+									  create_toggle {
+										label = localize('helluvajokers'),
+										ref_table = helluva_config,
+										ref_value = 'helluvajokers'
+										},
+									},
+								},
+							}
+						},
+						
+						-- Seals
+						{
+							n = G.UIT.R,
+							config = { tooltip = {text = {localize('helluvaseals_tooltip')}},},
+							nodes = {
+								{
+									n = G.UIT.C,
+									nodes = {
+									  create_toggle {
+										label = localize('helluvaseals'),
+										ref_table = helluva_config,
+										ref_value = 'helluvaseals'
+										},
+									},
+								},
+							}
+						},
+						
+						-- Quips
+						{
+							n = G.UIT.R,
+							config = { tooltip = {text = {localize('helluvaquips_tooltip')}},},
+							nodes = {
+								{
+									n = G.UIT.C,
+									nodes = {
+									  create_toggle {
+										label = localize('helluvaquips'),
+										ref_table = helluva_config,
+										ref_value = 'helluvaquips'
+										},
+									},
+								},
+							}
+						},
+						
+					},
+				},
+				-- COLUMN B - Change
+				{
+					n = G.UIT.C, config = { padding = 0.1, emboss = 0.5, align = "cl", -- colour = G.C.RED 
+					},
+					nodes = {
+				
 						-- Logo
 						{
 							n = G.UIT.R,
-							config = { align = 'cl', tooltip = {text = {"Changes main menu logo."}},},
+							config = { align = 'cl', tooltip = {text = {localize('helluvacustomlogo_tooltip')}},},
 							nodes = {
 								{
 									n = G.UIT.C,
@@ -70,27 +135,11 @@ SMODS.current_mod.config_tab = function()
 								},
 							},
 						},
-						-- Quips
-						{
-							n = G.UIT.R,
-							config = { tooltip = {text = {"Adds custom quips."}},},
-							nodes = {
-								{
-									n = G.UIT.C,
-									nodes = {
-									  create_toggle {
-										label = localize('helluva_quips'),
-										ref_table = helluva_config,
-										ref_value = 'helluvaquips'
-										},
-									},
-								},
-							}
-						},
+						
 						-- Custom UI
 						{
 							n = G.UIT.R,
-							config = { tooltip = {text = {"Changes deck menu UI."}},},
+							config = { tooltip = {text = {localize('helluvacustomui_tooltip')}},},
 							nodes = {
 								{
 									n = G.UIT.C,
@@ -107,7 +156,7 @@ SMODS.current_mod.config_tab = function()
 						-- Custom Names
 						{
 							n = G.UIT.R,
-							config = { tooltip = {text = {"Changes suit names.","Clubs = Moons, Diamonds = Mammons, Spades = Crowns."}},},
+							config = { tooltip = {text = {localize('helluvacustomsuits_tooltip1'),localize('helluvacustomsuits_tooltip2')}},},
 							nodes = {
 								{
 									n = G.UIT.C,

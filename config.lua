@@ -3,4 +3,6 @@ return {
   ["helluvaquips"]=true,
   ["helluvacustomsuits"]=true,
   ["helluvacustomui"]=true,
+  ["helluvaseals"]=true,
+  ["helluvajokers"]=true,
 }

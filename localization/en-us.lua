@@ -337,6 +337,7 @@ return {
 			},
 		},
 		Other={
+			-- Seals
 			hbp_belphegor_seal={
 				name="Belphegor",
 				text={
@@ -354,7 +355,7 @@ return {
 					'when discarded',
 					'{C:attention}Destroys card{}'
 				},
-			}
+			},
 		}
 	},
     misc = {
@@ -364,13 +365,22 @@ return {
 			h_4_7_of_clubs="four 7 of "..CLUBNAME.."s",
 			
 			-- Config
-
+			
 			helluvanorestart = "Restart Not Required",
 			helluvayesrestart = "Restart Required",
-			helluvacustomsuits = "Custom Suits",
-			helluva_quips = "Add Quips",
-			helluvacustomlogo = "Replace Logo",
-			helluvacustomui = "Custom UI",
+			helluvajokers = "Add Jokers",
+				helluvajokers_tooltip = "Adds new jokers.",
+			helluvaseals = "Add Seals",
+				helluvaseals_tooltip = "Adds new seals.",
+			helluvaquips = "Add Quips",
+				helluvaquips_tooltip = "Adds new quips.",
+			helluvacustomlogo = "Change Logo",
+				helluvacustomlogo_tooltip = "Changes main menu logo.",
+			helluvacustomui = "Change UI",
+				helluvacustomui_tooltip = "Changes deck menu UI.",
+			helluvacustomsuits = "Change Suits",
+				helluvacustomsuits_tooltip1 = "Changes suit names.",
+				helluvacustomsuits_tooltip2 = "Clubs = Moons, Diamonds = Mammons, Spades = Crowns.",
 
 			-- Credits
 			
@@ -380,10 +390,10 @@ return {
 			helluvacredits_card_artist = "Card Art: ",
 			helluvacredits_metal_card_artist = "Metal Card Art: ",
 			helluvacredits_config_coding = "Config Coding: ",
-			helluvacredits_joker_logic = "Joker Coding: ",
-			helluvacredits_localization = "Localization: ",
 			helluvacredits_quippers = "Quips: ",
 			helluvacredits_special_thanks = "Special Thanks: ",
+			helluvacredits_joker_logic = "Joker Coding: ",
+			helluvacredits_localization = "Localization: ",
 			donate = "Donate",
 		},
 		labels = {
