@@ -47,6 +47,8 @@ SMODS.Atlas {
 }
 
 -- Card Sleeves
+
+if next(SMODS.find_mod("CardSleeves")) then
 SMODS.Atlas:take_ownership('casl_sleeve_atlas',
 	{
 		path = 'helluvasleeves.png', 
@@ -54,6 +56,7 @@ SMODS.Atlas:take_ownership('casl_sleeve_atlas',
 	true
 )
 SMODS.Atlases['casl_sleeve_atlas'].mod = SMODS.current_mod
+end
 
 -- Logo
 if helluva_config.helluvalogo then
