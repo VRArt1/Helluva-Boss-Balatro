@@ -11,7 +11,7 @@ This mod aims to be an overhaul of Balatro adding in content as if it was an off
 * 2 Enhancers <sub>Malverk</sub>
 * 2 **New** Jokers
 * 2 **New** Seals
-* 13 Jokers <sub>Malverk</sub>
+* 14 Jokers <sub>Malverk</sub>
 * 4 Seals <sub>Malverk</sub>
 * 5 Sleeves
 * Tarots <sub>Malverk</sub>
@@ -44,6 +44,11 @@ If you like this mod and want to support the development of it and other mods co
 
 ## Changelog
 ```
+-------------------------------- 1.9.2 --------------------------------
+Added Stella, Satan, Crimson & Barbie Wire tarots.
+Added Steel, Smeared, Hit The Road, Faceless, Hologram, Greedy, Lusty, Wrathful, & Glutenous jokers.
+Added localization to jokers.
+Bugfix resolved involving nil error if Card Sleeves mod not installed.
 -------------------------------- 1.9.0 --------------------------------
 Addition of the following jokers: Misprint & Stencil.
 Changes to config menu to include option to disable custom ui.
