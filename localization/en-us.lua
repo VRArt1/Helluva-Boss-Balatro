@@ -429,8 +429,11 @@ return {
 				helluvaseals_tooltip = "Adds new seals.",
 			helluvaquips = "Add Quips",
 				helluvaquips_tooltip = "Adds new quips.",
+			
 			helluvacustomlogo = "Change Logo",
 				helluvacustomlogo_tooltip = "Changes main menu logo.",
+			helluvacustomsleeves = "Change Sleeves",
+				helluvacustomsleeves_tooltip = "Changes Card Sleeves.",
 			helluvacustomui = "Change UI",
 				helluvacustomui_tooltip = "Changes deck menu UI.",
 			helluvacustomsuits = "Change Suits",

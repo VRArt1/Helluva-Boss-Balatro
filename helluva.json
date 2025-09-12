@@ -8,6 +8,6 @@
 	"main_file": "helluva.lua",
 	"priority": 0,
 	"badge_colour": "d80007",
-	"version": "1.9.2",
+	"version": "1.9.3",
 	"dependencies": ["malverk"],
 }

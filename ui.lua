@@ -136,6 +136,26 @@ SMODS.current_mod.config_tab = function()
 							},
 						},
 						
+						-- Custom Sleeves
+						-- if next(SMODS.find_mod("CardSleeves")) then
+						{
+							n = G.UIT.R,
+							config = { tooltip = {text = {localize('helluvacustomsleeves_tooltip')}},},
+							nodes = {
+								{
+									n = G.UIT.C,
+									nodes = {
+									  create_toggle {
+										label = localize('helluvacustomsleeves'),
+										ref_table = helluva_config,
+										ref_value = 'helluvasleeves'
+										},
+									},
+								},
+							}
+						},
+						-- end
+						
 						-- Custom UI
 						{
 							n = G.UIT.R,

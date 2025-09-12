@@ -5,4 +5,5 @@ return {
   ["helluvacustomui"]=true,
   ["helluvaseals"]=true,
   ["helluvajokers"]=true,
+  ["helluvasleeves"]=true,
 }
