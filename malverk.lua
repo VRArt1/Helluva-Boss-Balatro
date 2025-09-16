@@ -4,7 +4,7 @@ AltTexture({
     set = 'Back',
     path = 'helluvaenhancers.png',
 	loc_txt = { name = 'Helluva Deck Backs',},
-	keys = {'b_red','b_blue','b_yellow','b_green','b_black'},
+	keys = {'b_red','b_blue','b_yellow','b_green','b_black', 'b_abandoned'},
 	display_pos = 'b_red',
 	original_sheet = true
 })
