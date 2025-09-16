@@ -4,7 +4,8 @@ This mod aims to be an overhaul of Balatro adding in content as if it was an off
 
 ## Mod Content
 * Main Menu Logo <sub>Toggleable</sub>
-* Custom Deck <sub>Low and High Contrast versions</sub>
+* Red Foil Deck Skin <sub>Low and High Contrast versions</sub>
+* Gold Foil Deck Skin <sub>Low and High Contrast versions</sub>
 * Custom Suit Names <sub>Toggleable</sub>
 * Custom UI Image <sub>Toggleable</sub>
 * 6 Card Backs <sub>Malverk</sub>

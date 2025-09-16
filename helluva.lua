@@ -1,11 +1,16 @@
 local atlas_key = 'hbp_atlas' -- Format: PREFIX_KEY
+local atlas_key2 = 'hbp_atlas2' -- Format: PREFIX_KEY
 local atlas_path = 'helluvaboss_lc.png' -- Filename for the image in the asset folder
 local atlas_path_hc = 'helluvaboss_hc.png' -- Filename for the high-contrast version of the texture, if existing
+local atlas_path2 = 'helluvabossgold_lc.png' -- Filename for the image in the asset folder
+local atlas_path2_hc = 'helluvabossgold_hc.png' -- Filename for the high-contrast version of the texture, if existing
 
 local suits = {'hearts', 'clubs', 'diamonds', 'spades'} -- Which suits to replace
 local ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', "King", "Ace",} -- Which ranks to replace
 
 local description = 'Helluva Boss' -- English-language description, also used as default
+local description1 = 'Helluva Boss Red Foil' -- English-language description, also used as default
+local description2 = 'Helluva Boss Gold Foil' -- English-language description, also used as default
 
 -- Config
 helluva_config = SMODS.current_mod.config
@@ -136,7 +141,40 @@ for _, suit in ipairs(suits) do
         lc_atlas = atlas_key..'_lc',
         hc_atlas = (atlas_path_hc and atlas_key..'_hc') or atlas_key..'_lc',
         loc_txt = {
-            ['en-us'] = description
+            ['en-us'] = description1
+        },
+        posStyle = 'deck'
+    }
+end
+
+-- Deck Gold
+SMODS.Atlas{  
+    key = atlas_key2..'_lc',
+    px = 71,
+    py = 95,
+    path = atlas_path2,
+    prefix_config = {key = false},
+}
+
+if atlas_path2_hc then
+    SMODS.Atlas{  
+        key = atlas_key2..'_hc',
+        px = 71,
+        py = 95,
+        path = atlas_path2_hc,
+        prefix_config = {key = false},
+    }
+end
+
+for _, suit in ipairs(suits) do
+    SMODS.DeckSkin{
+        key = suit.."2_skin",
+        suit = suit:gsub("^%l", string.upper),
+        ranks = ranks,
+        lc_atlas = atlas_key2..'_lc',
+        hc_atlas = (atlas_path2_hc and atlas_key2..'_hc') or atlas_key2..'_lc',
+        loc_txt = {
+            ['en-us'] = description2
         },
         posStyle = 'deck'
     }
