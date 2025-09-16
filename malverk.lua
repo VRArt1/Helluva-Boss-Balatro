@@ -18,6 +18,16 @@ AltTexture({
 	original_sheet = true
 })
 AltTexture({
+    key = 'spectralHELLUVA',
+    set = 'Spectral',
+    path = 'helluvatarots.png',
+	soul = 'helluvaenhancers.png',
+	soul_key = {'c_soul',},
+	keys = {'c_soul'},
+	original_sheet = true,
+	localization = true
+})
+AltTexture({
     key = 'jokersHELLUVA',
     set = 'Joker',
     path = 'helluvajokers.png',
@@ -89,6 +99,7 @@ TexturePack {
 		"hbp_sealHELLUVA",
 		"hbp_tarotsHELLUVA",
 		"hbp_stakesHELLUVA",
+		"hbp_spectralHELLUVA",
     },
         loc_txt = {
         name = "Helluva Boss",

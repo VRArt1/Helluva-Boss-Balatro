@@ -240,6 +240,17 @@ return {
 					},
 				},
 			},
+			alt_tex_hbp_spectralHELLUVA = {
+				name="Helluva Spectrals",
+				c_soul={
+                name="Asmodean Crystal",
+					text={
+						"Summons a",
+						"{C:legendary,E:1}Legendary{} Joker",
+						"{C:inactive}(Must have room)",
+					},
+				},
+			},
 		},	
 		Back={
             b_checkered={

@@ -7,12 +7,13 @@ This mod aims to be an overhaul of Balatro adding in content as if it was an off
 * Custom Deck <sub>Low and High Contrast versions</sub>
 * Custom Suit Names <sub>Toggleable</sub>
 * Custom UI Image <sub>Toggleable</sub>
-* 5 Card Backs <sub>Malverk</sub>
+* 6 Card Backs <sub>Malverk</sub>
 * 2 Enhancers <sub>Malverk</sub>
 * 2 **New** Jokers
 * 2 **New** Seals
 * 14 Jokers <sub>Malverk</sub>
 * 4 Seals <sub>Malverk</sub>
+* 1 Spectrals (Soul) <sub>MalverK</sub>
 * 5 Sleeves
 * Tarots <sub>Malverk</sub>
 * 16 **New** Quips <sub>Toggleable</sub>
