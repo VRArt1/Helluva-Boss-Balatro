@@ -503,7 +503,7 @@ return {
 			hbp_barbieloss = {''},
 			hbp_beelzebubloss = {''},
 			hbp_blitzoloss = {'HAAAAAA! Loser!'}, -- Cynder
-			hbp_crimsonloss = {'This is what happens when you cross me.'},
+			hbp_crimsonloss = {'This is what happens', 'when you cross me.'},
 			hbp_fizzloss = {'That wasn\'t very', '{C:attention}sigma{} of you.'},
 			hbp_glitzglamloss = {'You\'re a clown bitch.'},
 			hbp_humanloonaloss = {''},
