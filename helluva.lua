@@ -30,26 +30,29 @@ else
 end
 
 -- Jokers
-SMODS.Atlas{  
-        key = 'helluva_jokers',
-        px = 71,
-        py = 95,
-        path = "helluva_jokers.png",
-    }
--- assert(SMODS.load_file("jokers.lua"))() -- Testing
-SMODS.load_file("jokers.lua")()
+if helluva_config.helluvajokers then
+	SMODS.Atlas{  
+			key = 'helluva_jokers',
+			px = 71,
+			py = 95,
+			path = "helluva_jokers.png",
+		}
+	-- assert(SMODS.load_file("jokers.lua"))() -- Testing
+	SMODS.load_file("jokers.lua")()
 
--- Malverk file
--- assert(SMODS.load_file("malverk.lua"))() -- Testing
-SMODS.load_file("malverk.lua")()
+	-- Malverk file
+	-- assert(SMODS.load_file("malverk.lua"))() -- Testing
+	SMODS.load_file("malverk.lua")()
 
--- Modicon
-SMODS.Atlas {
-  key = 'modicon',
-  px = 32,
-  py = 32,
-  path = 'modicon.png'
-}
+	-- Modicon
+	SMODS.Atlas {
+	  key = 'modicon',
+	  px = 32,
+	  py = 32,
+	  path = 'modicon.png'
+	}
+else
+end
 
 -- Card Sleeves
 if helluva_config.helluvasleeves then
