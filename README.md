@@ -46,6 +46,14 @@ If you like this mod and want to support the development of it and other mods co
 
 ## Changelog
 ```
+-------------------------------- 2.0.0 --------------------------------
+Added toggle for custom sleeves & Jokers.
+Added abandoned deck back & sleeve.
+! Added gold foil deck skin.
+Adjusted Crimson & Vortex loss quips.
+Added Asmodean crystal over Soul.
+Added Vortex & Lucifer tarots.
+Adjusted Satan & Barbie tarots.
 -------------------------------- 1.9.2 --------------------------------
 Added Stella, Satan, Crimson & Barbie Wire tarots.
 Added Steel, Smeared, Hit The Road, Faceless, Hologram, Greedy, Lusty, Wrathful, & Glutenous jokers.
