@@ -475,50 +475,50 @@ return {
 			
 			hbp_andrealphuswin = {'Yeees!', 'Yeeesss!', 'YEEESSSS!!'},
 			hbp_asmodeuswin = {'You\'re the most inspiring person I\'ve ever known.'}, -- Mian
-			hbp_barbiewin = {''},
-			hbp_beelzebubwin = {'Hell yeah the honey is flowing tonight!','You are my new favorite person.'}, -- Mian
-			hbp_blitzowin = {'You really know how to put on a show.','Would it fuck up the moment if we made out right now?'}, -- Mian
-			hbp_crimsonwin = {''},
+			hbp_barbiewin = {'You are my', 'favey-wavey', 'winner!'},
+			hbp_beelzebubwin = {'Hell yeah the honey', 'is flowing tonight!','You are my new', 'favorite person.'}, -- Mian
+			hbp_blitzowin = {'You really know how', 'to put on a show.','Would it fuck up the moment', 'if we made out right now?'}, -- Mian
+			hbp_crimsonwin = {'Come and give', 'daddy a hug!'},
 			hbp_fizzwin = {'You\'re my little', '{C:attention}pog champ{}!'},
-			hbp_glitzglamwin = {''},
-			hbp_humanloonawin = {''},
-			hbp_loonawin = {''},
-			hbp_luciferwin = {''},
+			hbp_glitzglamwin = {'Let us scratch', 'your dirty itch.'},
+			hbp_humanloonawin = {'Huh. That was', 'kind of cool.'},
+			hbp_loonawin = {'Oh shit.', 'Nice job.'},
+			hbp_luciferwin = {'Take that,', 'depression!'},
 			hbp_mammonwin = {'You\'re a', 'bloody legend!'},
-			hbp_milliewin = {''},
-			hbp_moxxiewin = {''},
-			hbp_octaviawin = {''},
+			hbp_milliewin = {'OOOOOOOOHH!!', 'Way to go hun!'},
+			hbp_moxxiewin = {'You did it?', 'You finally', 'figured it out!'},
+			hbp_octaviawin = {'You\'re okay,', 'sometimes.'},
 			hbp_salliemaywin = {'Yee-fuckin\'-haw!'},
-			hbp_satanwin = {''},
-			hbp_stellawin = {''},
-			hbp_stolaswin = {''},
+			hbp_satanwin = {'Well you did it.', 'Time for lunch!'},
+			hbp_stellawin = {'Oh? You won?', 'Hilarious!'},
+			hbp_stolaswin = {'Oooooh goodness!','Just look at you!'},
 			hbp_strikerwin = {'I\'d like to take this moment to sing a song', 'I wrote just now about you winning.'}, -- Mian
-			hbp_verosikawin = {''},
-			hbp_vortexwin = {''},
+			hbp_verosikawin = {'Oh, you\'re serious?', 'Game on... bitch!'},
+			hbp_vortexwin = {'Ohhh you really','know how to play!'},
 		
 			-- Losses
 			
 			hbp_andrealphusloss = {'Oh motherfuck!', 'Seriously?!'},
-			hbp_asmodeusloss = {''},
-			hbp_barbieloss = {''},
-			hbp_beelzebubloss = {''},
+			hbp_asmodeusloss = {'GET THE', 'FUCK OUT'},
+			hbp_barbieloss = {'SATAN','FUCKING','DAMNIT!!!'},
+			hbp_beelzebubloss = {'Well fuck me.', 'And here I thought', 'you knew how to party.'},
 			hbp_blitzoloss = {'HAAAAAA! Loser!'}, -- Cynder
 			hbp_crimsonloss = {'This is what happens', 'when you cross me.'},
 			hbp_fizzloss = {'That wasn\'t very', '{C:attention}sigma{} of you.'},
 			hbp_glitzglamloss = {'You\'re a clown bitch.'},
-			hbp_humanloonaloss = {''},
-			hbp_loonaloss = {''},
-			hbp_luciferloss = {''},
-			hbp_mammonloss = {''},
+			hbp_humanloonaloss = {'You\'re so gross!'},
+			hbp_loonaloss = {'Alright! Time for', 'board games!', 'WITH DRINKS!'},
+			hbp_luciferloss = {'Nice try,', 'douchebag!'},
+			hbp_mammonloss = {'HAH! Suck it', 'ya bloody c***!'},
 			hbp_millieloss = {'I love you hon,', 'but for fuck\'s sake!'}, -- Mian
-			hbp_moxxieloss = {''},
+			hbp_moxxieloss = {'I fucking hate', 'you so much.'},
 			hbp_octavialoss = {'I think you\'d like this song,', 'it\'s called {C:attention}fuck you{}.'},
 			hbp_salliemayloss = {'SHIT! You smell', 'like hog ass.'},
-			hbp_satanloss = {''},
+			hbp_satanloss = {'What a', 'disappointment.'},
 			hbp_stellaloss = {'You are a goddamn embarrassment!', 'I\'m not spending another moment', 'with your imp fucking face!'}, -- Mian
 			hbp_stolasloss = {'You, you\'re... you\'re a- A CUNT!'}, -- Cynder
 			hbp_strikerloss = {'Don\'t worry little one,', 'you never stood a chance.'}, -- Mian
-			hbp_verosikaloss = {''},
+			hbp_verosikaloss = {'Choke on a','sandpaper cock.'},
 			hbp_vortexloss = {'Well, guess it\'s', 'time to bounce.'}, -- Mian			
 		}
 	}
