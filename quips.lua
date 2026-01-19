@@ -23,9 +23,9 @@ Verosika = 'c_lovers'
 Vortex = 'c_temperance'
 
 -- Wins
--- SMODS.JimboQuip{ key = 'andrealphuswin',
-    -- type = 'win',
-	-- extra = { center = Andrealphus, particle_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK }, materialize_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK} }, sound = 'voice11'}
+SMODS.JimboQuip{ key = 'andrealphuswin',
+    type = 'win',
+	extra = { center = Andrealphus, particle_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK }, materialize_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK} }, sound = 'voice11'}
 SMODS.JimboQuip{ key = 'asmodeuswin',
     type = 'win',
 	extra = { center = Asmodeus, particle_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK }, materialize_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK} }, sound = 'voice11'}
@@ -92,9 +92,9 @@ SMODS.JimboQuip{ key = 'strikerwin',
 
 
 -- Losses
--- SMODS.JimboQuip{ key = 'andrealphusloss',
-    -- type = 'loss',
-	-- extra = { center = Andrealphus, particle_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK }, materialize_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK} }, sound = 'voice11'}
+SMODS.JimboQuip{ key = 'andrealphusloss',
+    type = 'loss',
+	extra = { center = Andrealphus, particle_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK }, materialize_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK} }, sound = 'voice11'}
 -- SMODS.JimboQuip{ key = 'asmodeusloss',
     -- type = 'loss',
 	-- extra = { center = Asmodeus, particle_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK }, materialize_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK} }, sound = 'voice11'}
@@ -137,9 +137,9 @@ SMODS.JimboQuip{ key = 'millieloss',
 SMODS.JimboQuip{ key = 'octavialoss',
     type = 'loss',
 	extra = { center = Octavia, particle_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK }, materialize_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK} }, sound = 'voice11'}
--- SMODS.JimboQuip{ key = 'salliemayloss',
-    -- type = 'loss',
-	-- extra = { center = SallieMay, particle_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK }, materialize_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK} }, sound = 'voice11'}
+SMODS.JimboQuip{ key = 'salliemayloss',
+    type = 'loss',
+	extra = { center = SallieMay, particle_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK }, materialize_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK} }, sound = 'voice11'}
 -- SMODS.JimboQuip{ key = 'satanloss',
     -- type = 'loss',
 	-- extra = { center = Satan, particle_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK }, materialize_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK} }, sound = 'voice11'}

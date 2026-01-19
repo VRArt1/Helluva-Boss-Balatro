@@ -17,8 +17,8 @@ This mod aims to be an overhaul of Balatro adding in content as if it was an off
 * 1 Spectrals (Soul) <sub>MalverK</sub>
 * 5 Sleeves
 * Tarots <sub>Malverk</sub>
-* 17 **New** Quips <sub>Toggleable</sub>
-* 9 Swears <sub>**Fuck**</sub>
+* 20 **New** Quips <sub>Toggleable</sub>
+* 12 Swears <sub>**Fuck**</sub>
 
 ## Jokers
 This mod adds the following **2** new jokers.
@@ -54,6 +54,7 @@ Adjusted Crimson & Vortex loss quips.
 Added Asmodean crystal over Soul.
 Added Vortex & Lucifer tarots.
 Adjusted Satan & Barbie tarots.
+Added Sallie May & Andrealphus quips.
 -------------------------------- 1.9.2 --------------------------------
 Added Stella, Satan, Crimson & Barbie Wire tarots.
 Added Steel, Smeared, Hit The Road, Faceless, Hologram, Greedy, Lusty, Wrathful, & Glutenous jokers.

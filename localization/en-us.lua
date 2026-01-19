@@ -473,7 +473,7 @@ return {
 		
 			-- Wins
 			
-			hbp_andrealphuswin = {''},
+			hbp_andrealphuswin = {'Yeees!', 'Yeeesss!', 'YEEESSSS!!'},
 			hbp_asmodeuswin = {'You\'re the most inspiring person I\'ve ever known.'}, -- Mian
 			hbp_barbiewin = {''},
 			hbp_beelzebubwin = {'Hell yeah the honey is flowing tonight!','You are my new favorite person.'}, -- Mian
@@ -498,7 +498,7 @@ return {
 		
 			-- Losses
 			
-			hbp_andrealphusloss = {''},
+			hbp_andrealphusloss = {'Oh motherfuck!', 'Seriously?!'},
 			hbp_asmodeusloss = {''},
 			hbp_barbieloss = {''},
 			hbp_beelzebubloss = {''},
@@ -513,7 +513,7 @@ return {
 			hbp_millieloss = {'I love you hon,', 'but for fuck\'s sake!'}, -- Mian
 			hbp_moxxieloss = {''},
 			hbp_octavialoss = {'I think you\'d like this song,', 'it\'s called {C:attention}fuck you{}.'},
-			hbp_salliemayloss = {''},
+			hbp_salliemayloss = {'SHIT! You smell', 'like hog ass.'},
 			hbp_satanloss = {''},
 			hbp_stellaloss = {'You are a goddamn embarrassment!', 'I\'m not spending another moment', 'with your imp fucking face!'}, -- Mian
 			hbp_stolasloss = {'You, you\'re... you\'re a- A CUNT!'}, -- Cynder
