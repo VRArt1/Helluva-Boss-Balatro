@@ -488,7 +488,7 @@ return {
 			hbp_milliewin = {''},
 			hbp_moxxiewin = {''},
 			hbp_octaviawin = {''},
-			hbp_salliemaywin = {''},
+			hbp_salliemaywin = {'Yee-fuckin\'-haw!'},
 			hbp_satanwin = {''},
 			hbp_stellawin = {''},
 			hbp_stolaswin = {''},

@@ -68,9 +68,9 @@ SMODS.JimboQuip{ key = 'mammonwin',
 -- SMODS.JimboQuip{ key = 'octaviawin',
     -- type = 'win',
 	-- extra = { center = Octavia, particle_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK }, materialize_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK} }, sound = 'voice11'}
--- SMODS.JimboQuip{ key = 'salliemaywin',
-    -- type = 'win',
-	-- extra = { center = SallieMay, particle_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK }, materialize_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK} }, sound = 'voice11'}
+SMODS.JimboQuip{ key = 'salliemaywin',
+    type = 'win',
+	extra = { center = SallieMay, particle_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK }, materialize_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK} }, sound = 'voice11'}
 -- SMODS.JimboQuip{ key = 'satanwin',
     -- type = 'win',
 	-- extra = { center = Satan, particle_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK }, materialize_colours = { HEX("d80007"), HEX("f5d985"), G.C.BLACK} }, sound = 'voice11'}
