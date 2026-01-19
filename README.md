@@ -17,8 +17,8 @@ This mod aims to be an overhaul of Balatro adding in content as if it was an off
 * 1 Spectrals (Soul) <sub>MalverK</sub>
 * 5 Sleeves
 * Tarots <sub>Malverk</sub>
-* 16 **New** Quips <sub>Toggleable</sub>
-* 8 Swears <sub>**Fuck**</sub>
+* 17 **New** Quips <sub>Toggleable</sub>
+* 9 Swears <sub>**Fuck**</sub>
 
 ## Jokers
 This mod adds the following **2** new jokers.
